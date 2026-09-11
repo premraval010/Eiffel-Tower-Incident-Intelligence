@@ -13,8 +13,8 @@ Live: https://eiffel-tower-incident-intelligence.vercel.app
 | File | Purpose |
 |---|---|
 | `index.html` | The full interactive brief. 13 sections, self-contained, no build step. |
-| `eiffel-tower-baps-briefing.pdf` | Short summary version for circulation. |
-| `og-image.png` | 1200x630 social share card. Original vector artwork. |
+| `eiffel-tower-incident-briefing.pdf` | Multi-page visual summary for circulation. |
+| `og-image.png` | 1200x630 social share card. Tricolour Eiffel Tower cover photo (L. de Cockborne / bobostudio, credit intact). |
 | `favicon.svg` | Site icon. |
 | `vercel.json`, `robots.txt`, `sitemap.xml` | Deployment and indexing. |
 
