@@ -120,6 +120,16 @@ nav.side a.on .n{color:var(--saffron)}
 main{flex:1;min-width:0;max-width:1120px}
 section{padding:52px 56px;border-bottom:1px solid var(--line2)}
 section:nth-of-type(even){background:var(--wash)}
+/* large / ultra-wide screens: centre the whole app and let content use more room.
+   Below 1600px nothing changes, so the 100% laptop view stays as-is. */
+@media (min-width:1600px){
+  .shell{max-width:1520px;margin-inline:auto}
+  main{max-width:1278px}
+}
+@media (min-width:2100px){   /* 4K / ultra-wide: give charts and tables a little more width */
+  .shell{max-width:1680px}
+  main{max-width:1438px}
+}
 .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--saffron);margin-bottom:11px;display:flex;gap:12px;align-items:center}
 .eyebrow::after{content:"";height:1px;flex:1;background:var(--line)}
 h2.sec{font-size:29px;margin-bottom:8px;max-width:24ch}
