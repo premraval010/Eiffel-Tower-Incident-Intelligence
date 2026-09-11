@@ -249,6 +249,19 @@ tbody tr:hover{background:var(--wash)}
 .fb{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:6px 9px;border:1px solid var(--line);background:var(--card);cursor:pointer;color:var(--ink2)}
 .fb.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--muted);margin-left:auto}
+/* enhanced data tables: sticky header + toolbar */
+.tw.dt{max-height:68vh;overflow:auto;overscroll-behavior:contain}
+.tw.dt thead th{position:sticky;top:0;z-index:3;box-shadow:inset 0 -1px 0 var(--line)}
+.dtbar{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px;align-items:center}
+.dtbar input{font-family:inherit;font-size:12px;padding:6px 10px;border:1px solid var(--line);background:var(--card);min-width:180px;color:var(--ink)}
+.dtbar input:focus{outline:none;border-color:var(--saffron)}
+.dtbar select{font-family:"IBM Plex Mono",monospace;font-size:9.4px;letter-spacing:.05em;text-transform:uppercase;padding:6px 8px;border:1px solid var(--line);background:var(--card);color:var(--ink2);cursor:pointer}
+.dtbar select:focus{outline:none;border-color:var(--saffron)}
+.dtcount{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--muted);margin-left:auto}
+.dtdl{cursor:pointer;display:inline-flex;align-items:center;gap:5px}
+.dtbar .dtcount+.dtdl{margin-left:0}
+.dtempty{padding:18px 12px;color:var(--muted);font-size:12px;text-align:center}
+@media print{.tw.dt{max-height:none;overflow:visible}.dtbar{display:none}}
 
 /* versus */
 .vs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
@@ -555,7 +568,7 @@ footer p{font-size:11.8px;color:var(--foottx);max-width:78ch}
   <a href="#sw"><span class="n">11</span> Language &amp; Sentiment</a>
   <a href="#s9"><span class="n">12</span> Contradictions &amp; Risk</a>
   <a href="#s10"><span class="n">13</span> Sources</a>
-  <a class="dlcta" href="eiffel-tower-incident-briefing.pdf" download><span class="pdfic">PDF</span><span>Download brief<small>Summary &middot; updated 11 Sep</small></span></a>
+  <a class="dlcta" href="eiffel-tower-incident-briefing.pdf" target="_blank" rel="noopener"><span class="pdfic">PDF</span><span>Read the brief<small>Opens in a new tab &middot; updated 11 Sep</small></span></a>
   <div class="navfoot">Last updated<br>11 Sep 2026, 13:30 IST<br><br>Independent analysis. Not commissioned, funded, reviewed or endorsed by anyone.</div>
 </nav>
 
@@ -1114,16 +1127,18 @@ footer p{font-size:11.8px;color:var(--foottx);max-width:78ch}
     <h4>Distribution of named public stances</h4>
     <div class="cap">Coded from the 27 entries below. Not a poll. A map of who has spoken and how.</div>
     <div class="smeter" id="stancemeter">
-      <div style="background:var(--bad)" data-w="55.6">15 CRITICAL</div>
-      <div style="background:var(--warn)" data-w="7.4">2 MIXED</div>
-      <div style="background:var(--blue)" data-w="7.4">2 DISTANCING</div>
-      <div style="background:var(--ok)" data-w="29.6">8 SUPPORTIVE</div>
+      <div style="background:var(--bad)" data-w="59.3" title="Critical: 16">16</div>
+      <div style="background:var(--warn)" data-w="3.7" title="Mixed: 1">1</div>
+      <div style="background:var(--blue)" data-w="7.4" title="Distancing: 2">2</div>
+      <div style="background:var(--muted)" data-w="3.7" title="Neutral: 1">1</div>
+      <div style="background:var(--ok)" data-w="25.9" title="Supportive: 7">7</div>
     </div>
     <div class="legend">
-      <span><i style="background:var(--bad)"></i>Critical of the arrangement</span>
-      <span><i style="background:var(--warn)"></i>Mixed</span>
-      <span><i style="background:var(--blue)"></i>Distancing or conceding</span>
-      <span><i style="background:var(--ok)"></i>Defending or supportive</span>
+      <span><i style="background:var(--bad)"></i>Critical of the arrangement &middot; 16</span>
+      <span><i style="background:var(--warn)"></i>Mixed &middot; 1</span>
+      <span><i style="background:var(--blue)"></i>Distancing or conceding &middot; 2</span>
+      <span><i style="background:var(--muted)"></i>Neutral / no comment &middot; 1</span>
+      <span><i style="background:var(--ok)"></i>Defending or supportive &middot; 7</span>
     </div>
     <p class="note">Read this carefully. Almost every supportive voice is inside the BAPS community. Almost every critical voice is outside it. That is the shape of the problem, not a measure of who is right.</p>
   </div>
@@ -1194,7 +1209,7 @@ footer p{font-size:11.8px;color:var(--foottx);max-width:78ch}
   <div class="eyebrow">11 &middot; Language &amp; Sentiment</div>
   <h2 class="sec">Two vocabularies that barely touch</h2>
   <p class="lede">These terms recur across the posts, comments and articles reviewed for this brief. Size is frequency, in five bands. Colour is which side used it. The finding is not what either side says. It is that they are not using the same words at all.</p>
-  <div class="cloud"><span class="w2 w-s">context</span><span class="w5 w-s">full picture</span><span class="w5 w-c">embarrass India</span><span class="w5 w-c">sexist</span><span class="w4 w-c">laws of the Republic</span><span class="w5 w-n">coordination</span><span class="w4 w-c">public monument</span><span class="w5 w-c">labour case</span><span class="w4 w-n">delegation</span><span class="w3 w-s">maryada</span><span class="w2 w-n">request</span><span class="w4 w-n">management</span><span class="w4 w-s">celibacy</span><span class="w4 w-c">regressive</span><span class="w1 w-c">discrimination</span><span class="w2 w-s">discipline</span><span class="w1 w-s">brahmacharya</span><span class="w4 w-c">why visit at all</span><span class="w3 w-s">respect</span><span class="w2 w-n">SETE</span><span class="w5 w-n">framework</span><span class="w3 w-s">not discrimination</span><span class="w5 w-s">headline vs reality</span><span class="w5 w-c">far right</span><span class="w2 w-c">humiliated</span><span class="w4 w-s">misunderstanding</span><span class="w5 w-c">red carpet</span><span class="w4 w-s">empowerment</span><span class="w3 w-c">removed</span><span class="w4 w-s">monks</span><span class="w3 w-n">investigation</span><span class="w3 w-s">boundaries</span><span class="w3 w-c">workplace</span><span class="w2 w-c">sidelined</span><span class="w4 w-c">Hindutva</span><span class="w4 w-s">proud</span><span class="w3 w-n">strike</span><span class="w5 w-s">mother&rsquo;s prayer</span><span class="w2 w-s">vow</span><span class="w3 w-c">&eacute;galit&eacute;</span><span class="w5 w-s">service</span><span class="w3 w-c">misogynistic</span><span class="w2 w-c">invisible</span><span class="w3 w-n">apology</span><span class="w3 w-s">seva</span><span class="w4 w-c">double standard</span><span class="w1 w-s">lived experience</span></div>
+  <div class="cloud"><span class="w2 w-s">context</span><span class="w5 w-s">full picture</span><span class="w5 w-c">embarrass India</span><span class="w5 w-c">sexist</span><span class="w4 w-c">laws of the Republic</span><span class="w5 w-n">coordination</span><span class="w4 w-c">public monument</span><span class="w5 w-c">labour case</span><span class="w4 w-n">delegation</span><span class="w3 w-s">maryada</span><span class="w2 w-n">request</span><span class="w4 w-n">management</span><span class="w4 w-s">celibacy</span><span class="w4 w-c">regressive</span><span class="w1 w-c">discrimination</span><span class="w2 w-s">discipline</span><span class="w1 w-s">brahmacharya</span><span class="w4 w-c">why visit at all</span><span class="w3 w-s">respect</span><span class="w2 w-n">SETE</span><span class="w5 w-n">framework</span><span class="w3 w-s">not discrimination</span><span class="w5 w-s">headline vs reality</span><span class="w5 w-c">far right</span><span class="w2 w-c">humiliated</span><span class="w4 w-s">misunderstanding</span><span class="w5 w-c">red carpet</span><span class="w4 w-s">empowerment</span><span class="w3 w-c">removed</span><span class="w4 w-s">monks</span><span class="w3 w-n">investigation</span><span class="w3 w-s">boundaries</span><span class="w3 w-c">workplace</span><span class="w2 w-c">sidelined</span><span class="w4 w-c">Hindutva</span><span class="w4 w-s">proud</span><span class="w3 w-n">strike</span><span class="w5 w-s">mother&rsquo;s prayer</span><span class="w2 w-s">vow</span><span class="w3 w-c">&eacute;galit&eacute;</span><span class="w5 w-s">service</span><span class="w3 w-c">misogynistic</span><span class="w2 w-c">invisible</span><span class="w3 w-n">apology</span><span class="w3 w-s">seva</span><span class="w4 w-c">double standard</span><span class="w1 w-s">lived experience</span><span class="w3 w-c">workplace equality</span><span class="w4 w-c">employees not visitors</span><span class="w4 w-c">step aside</span><span class="w4 w-c">who approved</span><span class="w4 w-c">foreign visitors</span><span class="w3 w-c">burden on society</span><span class="w4 w-c">la&iuml;cit&eacute;</span><span class="w4 w-c">secularism</span><span class="w5 w-c">New Jersey</span><span class="w5 w-c">land allocation</span><span class="w4 w-c">racism risk</span><span class="w4 w-s">logistical</span><span class="w4 w-s">no gender request</span><span class="w4 w-s">earliest lift</span><span class="w4 w-s">decades of service</span><span class="w4 w-s">monastic tradition</span><span class="w5 w-s">misread</span><span class="w4 w-s">sadhu</span><span class="w4 w-n">works council</span><span class="w4 w-n">VIP framework</span><span class="w4 w-n">MEA step-back</span><span class="w3 w-n">against interest</span><span class="w4 w-n">two investigations</span></div>
   <div class="legend tidy" style="margin-top:14px;grid-template-columns:repeat(3,auto)">
     <span><i style="background:var(--bad)"></i>Critical vocabulary</span>
     <span><i style="background:var(--ok)"></i>Supportive vocabulary</span>
@@ -1386,7 +1401,77 @@ tbl.querySelectorAll('th.s').forEach(th=>th.addEventListener('click',()=>{
   .forEach(r=>tbl.tBodies[0].appendChild(r));}));
 apply();
 
+/* ---------- data-table enhancements: sticky headers, search, filter, CSV download ---------- */
+function cellCSV(td){
+  let t=(td.innerText||'').replace(/\s+/g,' ').trim();
+  const urls=[...td.querySelectorAll('a[href]')].map(a=>a.href).filter(h=>/^https?:/.test(h));
+  if(urls.length) t+=' ['+[...new Set(urls)].join(' ; ')+']';
+  return '"'+t.replace(/"/g,'""')+'"';
+}
+function downloadCSV(table,rows,name){
+  const head=[...table.tHead.rows[0].cells].map(c=>'"'+c.innerText.replace(/\s+/g,' ').trim().replace(/"/g,'""')+'"');
+  const vis=rows.filter(r=>r.style.display!=='none');
+  const lines=[head.join(',')].concat(vis.map(r=>[...r.cells].map(cellCSV).join(',')));
+  const blob=new Blob(['﻿'+lines.join('\r\n')],{type:'text/csv;charset=utf-8'});
+  const url=URL.createObjectURL(blob),a=document.createElement('a');
+  a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();
+  setTimeout(()=>URL.revokeObjectURL(url),1500);
+}
+// make every data table's header sticky on scroll
+document.querySelectorAll('.tw').forEach(tw=>{ if(tw.querySelector('table thead')) tw.classList.add('dt'); });
 
+// give the existing claims table a CSV export in its own toolbar
+(function(){
+  const dl=document.createElement('button');
+  dl.className='fb dtdl';dl.type='button';dl.textContent='Download CSV';dl.title='Download the filtered claims as CSV';
+  dl.addEventListener('click',()=>downloadCSV(tbl,rows,'eiffel-claim-verification.csv'));
+  const bar=document.querySelector('.filters'); if(bar) bar.appendChild(dl);
+})();
+
+// generic enhancer for the other big tables
+const STANCE={'st-crit':'Critical','st-supp':'Supportive','st-dist':'Distancing','st-mixed':'Mixed','st-neut':'Neutral'};
+const STANCE_ORDER=['Critical','Mixed','Distancing','Supportive','Neutral'];
+function tableByHeader(txt){
+  const k=txt.toLowerCase();
+  return [...document.querySelectorAll('.tw table')].find(t=>t.tHead&&[...t.tHead.rows[0].cells].some(c=>c.textContent.trim().toLowerCase()===k));
+}
+function enhance(cfg){
+  const table=tableByHeader(cfg.header); if(!table||!table.tBodies[0]) return;
+  const tw=table.closest('.tw'), rows=[...table.tBodies[0].rows];
+  const bar=document.createElement('div'); bar.className='dtbar';
+  const search=document.createElement('input');
+  search.type='text'; search.placeholder=cfg.placeholder||'Search…'; bar.appendChild(search);
+  let sel=null, stanceMode=cfg.stanceCol!=null;
+  const rowCat=r=>{ if(stanceMode){const el=r.cells[cfg.stanceCol]&&r.cells[cfg.stanceCol].querySelector('.stance');
+      if(el) for(const k in STANCE) if(el.classList.contains(k)) return STANCE[k]; return '';}
+    return cfg.filterCol!=null ? (r.cells[cfg.filterCol]?r.cells[cfg.filterCol].innerText.trim():'') : ''; };
+  if(stanceMode||cfg.filterCol!=null){
+    let vals=[...new Set(rows.map(rowCat).filter(Boolean))];
+    if(stanceMode) vals.sort((a,b)=>STANCE_ORDER.indexOf(a)-STANCE_ORDER.indexOf(b)); else vals.sort();
+    sel=document.createElement('select');
+    sel.innerHTML='<option value="">'+(cfg.filterLabel||'All')+'</option>'+vals.map(v=>'<option>'+v+'</option>').join('');
+    bar.appendChild(sel);
+  }
+  const count=document.createElement('span'); count.className='dtcount'; bar.appendChild(count);
+  const dl=document.createElement('button'); dl.className='fb dtdl'; dl.type='button'; dl.textContent='Download CSV';
+  dl.title='Download the filtered rows as CSV';
+  dl.addEventListener('click',()=>downloadCSV(table,rows,cfg.file)); bar.appendChild(dl);
+  tw.parentNode.insertBefore(bar,tw);
+  function apply(){
+    const q=search.value.toLowerCase().trim(), f=sel?sel.value:'';
+    let n=0; rows.forEach(r=>{
+      const okQ=!q||r.innerText.toLowerCase().includes(q);
+      const okF=!f||rowCat(r)===f;
+      r.style.display=(okQ&&okF)?'':'none'; if(okQ&&okF)n++;
+    });
+    count.textContent=n+' of '+rows.length;
+  }
+  search.addEventListener('input',apply); sel&&sel.addEventListener('change',apply); apply();
+}
+enhance({header:'Why it matters', placeholder:'Search 27 voices…', stanceCol:2, filterLabel:'All stances', file:'eiffel-voices-and-stances.csv'});
+enhance({header:'What drives it', placeholder:'Search stakeholders…', filterCol:1, filterLabel:'All postures', file:'eiffel-stakeholders.csv'});
+enhance({header:'Language', placeholder:'Search Indian-language media…', stanceCol:3, filterLabel:'All positions', file:'eiffel-indian-language-media.csv'});
+enhance({header:'Direction', placeholder:'Search…', filterCol:2, filterLabel:'All directions', file:'eiffel-what-would-change.csv'});
 </script>
 </body>
 </html>
