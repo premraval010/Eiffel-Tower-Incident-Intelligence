@@ -1,0 +1,1361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Eiffel Tower Incident: BAPS, SETE and the Reputational Intelligence Brief</title>
+<meta name="description" content="An independent, evidence-led analysis of the 5 September 2026 Eiffel Tower controversy. What is established, what is disputed, and how the story is being framed across French, Indian, Gujarati and Hindi media. 25 named voices, 180+ linked sources. Not commissioned or endorsed by anyone.">
+<meta name="author" content="Independent open-source analysis">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#0a0d12">
+<link rel="canonical" href="https://eiffel-tower-incident-intelligence.vercel.app/">
+
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Eiffel Tower Incident Intelligence">
+<meta property="og:url" content="https://eiffel-tower-incident-intelligence.vercel.app/">
+<meta property="og:title" content="The Eiffel Tower Incident: BAPS, SETE and the Reputational Intelligence Brief">
+<meta property="og:description" content="An independent, evidence-led analysis of the 5 September 2026 Eiffel Tower controversy. What is established, what is disputed, and how the story is being framed across French, Indian, Gujarati and Hindi media. 25 named voices, 180+ linked sources. Not commissioned or endorsed by anyone.">
+<meta property="og:image" content="https://eiffel-tower-incident-intelligence.vercel.app/og-image.png">
+<meta property="og:image:secure_url" content="https://eiffel-tower-incident-intelligence.vercel.app/og-image.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="The Eiffel Tower Incident — BAPS, SETE and the Reputational Intelligence Brief">
+<meta property="og:locale" content="en_GB">
+<meta property="article:published_time" content="2026-09-09T06:00:00Z">
+<meta property="article:modified_time" content="2026-09-11T08:00:00Z">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Eiffel Tower Incident: BAPS, SETE and the Reputational Intelligence Brief">
+<meta name="twitter:description" content="What is established, what is disputed, and how the story is being framed across France and India. 25 named voices, 180+ linked sources. Independent.">
+<meta name="twitter:image" content="https://eiffel-tower-incident-intelligence.vercel.app/og-image.png">
+<meta name="twitter:image:alt" content="The Eiffel Tower Incident — independent intelligence brief">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Report","headline":"The Eiffel Tower Incident: BAPS, SETE and the Reputational Intelligence Brief",
+"description":"An independent, evidence-led analysis of the 5 September 2026 Eiffel Tower controversy. What is established, what is disputed, and how the story is being framed across French, Indian, Gujarati and Hindi media. 25 named voices, 180+ linked sources. Not commissioned or endorsed by anyone.","inLanguage":"en-GB","datePublished":"2026-09-09","dateModified":"2026-09-11",
+"url":"https://eiffel-tower-incident-intelligence.vercel.app/","image":"https://eiffel-tower-incident-intelligence.vercel.app/og-image.png",
+"author":{"@type":"Person","name":"Independent open-source analysis"},
+"about":[{"@type":"Thing","name":"Eiffel Tower"},{"@type":"Organization","name":"BAPS Swaminarayan Sanstha"},
+{"@type":"Organization","name":"Soci\u00e9t\u00e9 d'Exploitation de la tour Eiffel"}],
+"isAccessibleForFree":true}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* ---- TRICOLORE PALETTE: bleu / blanc / rouge ---- */
+:root{
+  --bg:#ffffff; --card:#ffffff;
+  --ink:#0f1319; --ink2:#3b4450; --muted:#727c88; --faint:#a7afb9;
+  --line:#dfe3e8; --line2:#eef0f3; --wash:#f7f9fb; --wash2:#eef2f6;
+  --ok:#14459c;   --ok-bg:#e8eef9;
+  --mid:#49535f;  --mid-bg:#eef1f4;
+  --warn:#49535f; --warn-bg:#eef1f4;
+  --bad:#b5121b;  --bad-bg:#fbeaea;
+  --unk:#7d8794;  --unk-bg:#f1f2f4;
+  --saffron:#14459c; --sf-bg:#e8eef9;
+  --blue:#14459c;    --bl-bg:#e8eef9;
+  --neu:#9aa3ae;
+  --footbg:#0f1319; --foottx:#98a1ab; --foothd:#ffffff;
+  --nav-w:242px;
+}
+[data-theme="dark"]{
+  --bg:#0a0d12; --card:#131922;
+  --ink:#eef3f9; --ink2:#b3becb; --muted:#7b8794; --faint:#4c5764;
+  --line:#252e3a; --line2:#1a212a; --wash:#0e1218; --wash2:#161d26;
+  --ok:#3d8bff;   --ok-bg:rgba(61,139,255,.12);
+  --mid:#dbe3ec;  --mid-bg:rgba(219,227,236,.10);
+  --warn:#dbe3ec; --warn-bg:rgba(219,227,236,.10);
+  --bad:#ff4d6a;  --bad-bg:rgba(255,77,106,.12);
+  --unk:#7b8794;  --unk-bg:rgba(123,135,148,.14);
+  --saffron:#3d8bff; --sf-bg:rgba(61,139,255,.12);
+  --blue:#6fb4ff;    --bl-bg:rgba(111,180,255,.10);
+  --neu:#5a6673;
+  --footbg:#05080b; --foottx:#8d99a6; --foothd:#eef3f9;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--ink);font-family:"IBM Plex Sans",system-ui,sans-serif;font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:"Newsreader",Georgia,serif;font-weight:500;line-height:1.14;letter-spacing:-.01em}
+.mono{font-family:"IBM Plex Mono",monospace}
+
+/* ---------- NAV ---------- */
+.topbar{display:none;position:sticky;top:0;z-index:60;background:var(--card);border-bottom:1px solid var(--line);padding:12px 16px;align-items:center;gap:12px}
+.burger{width:38px;height:38px;border:1px solid var(--line);background:var(--card);display:grid;place-items:center;cursor:pointer;flex:0 0 auto}
+.burger span{display:block;width:17px;height:1.5px;background:var(--ink);position:relative}
+.burger span::before,.burger span::after{content:"";position:absolute;left:0;width:17px;height:1.5px;background:var(--ink);transition:.2s}
+.burger span::before{top:-5px}.burger span::after{top:5px}
+body.navopen .burger span{background:transparent}
+body.navopen .burger span::before{top:0;transform:rotate(45deg)}
+body.navopen .burger span::after{top:0;transform:rotate(-45deg)}
+.topbar .tt{font-family:"Newsreader",serif;font-size:16px;line-height:1.1}
+.topbar .ts{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.scrim{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:70}
+body.navopen .scrim{display:block}
+
+.shell{display:flex;min-height:100vh}
+nav.side{width:var(--nav-w);flex:0 0 var(--nav-w);position:sticky;top:0;height:100vh;border-right:1px solid var(--line);padding:26px 0 26px 24px;overflow-y:auto;background:var(--wash);z-index:80}
+nav.side .brand{font-family:"Newsreader",serif;font-size:18px;line-height:1.2;padding-right:20px}
+nav.side .brandsub{font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:5px 20px 24px 0}
+nav.side a{display:flex;gap:9px;align-items:baseline;text-decoration:none;color:var(--ink2);font-size:12.6px;padding:7px 20px 7px 24px;border-left:2px solid transparent;margin-left:-24px;transition:.15s}
+nav.side a .n{font-family:"IBM Plex Mono",monospace;font-size:9.5px;color:var(--faint);flex:0 0 18px}
+nav.side a:hover{color:var(--ink);background:var(--card)}
+nav.side a.on{color:var(--ink);border-left-color:var(--saffron);font-weight:500;background:var(--card)}
+nav.side a.on .n{color:var(--saffron)}
+.navfoot{margin-top:22px;padding:14px 20px 0 0;border-top:1px solid var(--line);font-size:10px;color:var(--muted);line-height:1.5}
+
+main{flex:1;min-width:0;max-width:1120px}
+section{padding:52px 56px;border-bottom:1px solid var(--line2)}
+section:nth-of-type(even){background:var(--wash)}
+.eyebrow{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--saffron);margin-bottom:11px;display:flex;gap:12px;align-items:center}
+.eyebrow::after{content:"";height:1px;flex:1;background:var(--line)}
+h2.sec{font-size:29px;margin-bottom:8px;max-width:24ch}
+.lede{font-size:14.8px;color:var(--ink2);max-width:66ch;margin-bottom:26px}
+p{max-width:70ch;margin-bottom:10px}
+.note{font-size:11.8px;color:var(--muted);max-width:74ch;margin-top:12px;line-height:1.55}
+
+/* ---------- MASTHEAD ---------- */
+header.mast{padding:48px 56px 0;border-bottom:2px solid var(--ink)}
+header.mast h1{color:var(--ink)}
+header.mast .kicker{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+header.mast h1{font-size:clamp(30px,4.2vw,46px);max-width:19ch;margin-bottom:12px}
+header.mast .sub{font-size:15px;color:var(--ink2);max-width:60ch;margin-bottom:30px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line);margin:0 -56px;padding:0 0}
+.kpi{background:var(--card);padding:16px 18px 18px}
+.kpi .k{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.kpi .v{font-family:"Newsreader",serif;font-size:27px;line-height:1}
+.kpi .d{font-size:10.5px;color:var(--muted);margin-top:4px;line-height:1.4}
+
+/* ---------- ANSWER ROWS ---------- */
+.ans{border:1px solid var(--ink);background:var(--card);margin-bottom:30px}
+.ans .row{display:grid;grid-template-columns:140px 1fr;border-bottom:1px solid var(--line)}
+.ans .row:last-child{border-bottom:none}
+.ans .q{padding:14px 16px;background:var(--wash2);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);border-right:1px solid var(--line)}
+.ans .a{padding:14px 18px;font-size:13.8px;line-height:1.55}
+
+/* ---------- GRID / CARDS ---------- */
+.grid{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:22px}
+.g2{grid-template-columns:repeat(2,1fr)}.g3{grid-template-columns:repeat(3,1fr)}.g4{grid-template-columns:repeat(4,1fr)}
+.cell{background:var(--card);padding:16px 18px}
+.cell .lbl{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px}
+.cell .big{font-family:"Newsreader",serif;font-size:24px;line-height:1.05;margin-bottom:5px}
+.cell .desc{font-size:12.2px;color:var(--ink2);line-height:1.5}
+
+/* ---------- BADGES ---------- */
+.b{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:3px 7px;border:1px solid;white-space:nowrap;font-weight:500}
+.b-ok{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
+.b-wn{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+.b-bd{color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
+.b-uk{color:var(--unk);border-color:var(--unk);background:var(--unk-bg)}
+.b-sf{color:var(--saffron);border-color:var(--saffron);background:var(--sf-bg)}
+
+/* ---------- CHART CARD ---------- */
+.chart{border:1px solid var(--line);background:var(--card);padding:20px 22px;margin-bottom:18px}
+.chart h4{font-size:16px;margin-bottom:3px}
+.chart .cap{font-size:11.2px;color:var(--muted);margin-bottom:16px;max-width:62ch}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:11px;color:var(--ink2);margin-top:12px}
+.legend span i{display:inline-block;width:9px;height:9px;margin-right:5px;vertical-align:-1px}
+
+/* horizontal bars */
+.hbar{margin-bottom:11px}
+.hbar .l{display:flex;justify-content:space-between;gap:10px;font-size:12.2px;margin-bottom:3px}
+.hbar .l .r{font-family:"IBM Plex Mono",monospace;font-size:10.5px;color:var(--muted);white-space:nowrap}
+.trk{height:8px;background:var(--wash2)}
+.fil{height:100%;width:0;transition:width .9s cubic-bezier(.2,.8,.2,1)}
+.c-bad{background:var(--bad)}.c-warn{background:var(--warn)}.c-neu{background:var(--neu)}.c-sf{background:var(--saffron)}.c-ok{background:var(--ok)}.c-bl{background:var(--blue)}
+
+/* column chart */
+.cols{display:flex;align-items:flex-end;gap:10px;height:170px;border-bottom:1px solid var(--line);padding-bottom:0}
+.col{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%}
+.col .bar{width:100%;height:0;transition:height .9s cubic-bezier(.2,.8,.2,1);position:relative}
+.col .num{font-family:"IBM Plex Mono",monospace;font-size:12px;margin-bottom:5px;color:var(--ink)}
+.collabels{display:flex;gap:10px;margin-top:8px}
+.collabels div{flex:1;text-align:center;font-family:"IBM Plex Mono",monospace;font-size:8.6px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);line-height:1.3}
+
+/* donut */
+.donutwrap{display:flex;gap:26px;align-items:center;flex-wrap:wrap}
+.donut circle{transition:stroke-dashoffset 1.1s cubic-bezier(.2,.8,.2,1)}
+.dlist{flex:1;min-width:220px}
+.dlist .di{display:flex;align-items:baseline;gap:9px;padding:7px 0;border-bottom:1px solid var(--line2);font-size:12.4px}
+.dlist .di:last-child{border-bottom:none}
+.dlist .di i{width:9px;height:9px;flex:0 0 9px;position:relative;top:1px}
+.dlist .di b{margin-left:auto;font-family:"IBM Plex Mono",monospace;font-weight:500;font-size:12px}
+
+/* diverging / dot matrix */
+.matrix{display:grid;gap:1px;background:var(--line);border:1px solid var(--line);font-size:11.8px}
+.matrix>div{background:var(--card);padding:9px 11px}
+.matrix .mh{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.08em;text-transform:uppercase;background:var(--wash2);color:var(--ink2);text-align:center;line-height:1.3}
+.matrix .ml{font-weight:500;background:var(--wash);font-size:12px}
+.matrix .mc{text-align:center}
+.pd{display:inline-block;width:14px;height:14px;border-radius:50%}
+.p-sup{background:var(--saffron)}.p-con{background:var(--warn)}.p-opp{background:var(--bad)}.p-neu{background:var(--neu)}.p-unk{background:var(--card);border:1.5px dashed var(--faint)}
+
+/* heat */
+.heat{display:grid;grid-template-columns:180px repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);font-size:11.6px}
+.heat div{background:var(--card);padding:9px 10px}
+.heat .hh{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.09em;text-transform:uppercase;background:var(--wash2);color:var(--ink2);text-align:center}
+.heat .rl{font-weight:500;background:var(--wash)}
+.hc{text-align:center;font-family:"IBM Plex Mono",monospace;font-size:9.5px;letter-spacing:.05em}
+.h-l{background:var(--ok-bg)!important;color:var(--ok)}
+.h-m{background:var(--mid-bg)!important;color:var(--mid)}
+.h-h{background:var(--warn-bg)!important;color:var(--warn)}
+.h-c{background:var(--bad-bg)!important;color:var(--bad)}
+.h-n{color:var(--faint)}
+
+/* timeline visual */
+.tlchart{position:relative;padding:26px 0 6px}
+.tlaxis{height:2px;background:var(--line);position:relative;margin:0 6px}
+.tlmark{position:absolute;top:-6px;width:14px;height:14px;border-radius:50%;background:var(--card);border:2px solid var(--unk);transform:translateX(-50%);cursor:pointer;transition:.18s}
+.tlmark.key{border-color:var(--bad);background:var(--bad)}
+.tlmark:hover{transform:translateX(-50%) scale(1.35)}
+.tllab{position:absolute;top:16px;transform:translateX(-50%);font-family:"IBM Plex Mono",monospace;font-size:8.6px;color:var(--muted);white-space:nowrap;letter-spacing:.04em}
+.tl{border-left:2px solid var(--line);margin:34px 0 0 7px}
+.tli{position:relative;padding-left:24px}
+.tli::before{content:"";position:absolute;left:-7px;top:14px;width:12px;height:12px;border-radius:50%;background:var(--card);border:2px solid var(--faint)}
+.tli.key::before{border-color:var(--bad);background:var(--bad)}
+.tlh{cursor:pointer;display:flex;gap:12px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line2);user-select:none}
+.tlh:hover .tlt{color:var(--saffron)}
+.tld{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--muted);flex:0 0 84px}
+.tlt{font-size:13.6px;font-weight:500;flex:1;transition:.15s}
+.tlb{display:none;padding:10px 0 14px 96px;font-size:12.8px;color:var(--ink2);max-width:80ch}
+.tli.open .tlb{display:block}
+.tlb .src{font-family:"IBM Plex Mono",monospace;font-size:9.8px;color:var(--muted);margin-top:7px;display:block}
+.chev{font-size:10px;color:var(--faint)}
+
+/* tables */
+.tw{border:1px solid var(--line);overflow-x:auto;background:var(--card);-webkit-overflow-scrolling:touch}
+table{border-collapse:collapse;width:100%;font-size:12.4px;min-width:520px}
+th{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.1em;text-transform:uppercase;text-align:left;padding:10px 11px;background:var(--wash2);border-bottom:1px solid var(--line);color:var(--ink2);white-space:nowrap}
+th.s{cursor:pointer;user-select:none}th.s:hover{color:var(--saffron)}
+td{padding:10px 11px;border-bottom:1px solid var(--line2);vertical-align:top;line-height:1.45}
+tr:last-child td{border-bottom:none}
+tbody tr:hover{background:var(--wash)}
+.filters{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:12px;align-items:center}
+.filters input{font-family:inherit;font-size:12.2px;padding:6px 10px;border:1px solid var(--line);background:var(--card);min-width:170px;color:var(--ink)}
+.filters input:focus{outline:none;border-color:var(--saffron)}
+.fb{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.08em;text-transform:uppercase;padding:6px 9px;border:1px solid var(--line);background:var(--card);cursor:pointer;color:var(--ink2)}
+.fb.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.cnt{font-family:"IBM Plex Mono",monospace;font-size:10px;color:var(--muted);margin-left:auto}
+
+/* versus */
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.vh{padding:12px 18px;border-bottom:1px solid var(--line);font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.12em;text-transform:uppercase}
+.vh.pro{background:var(--sf-bg);color:var(--saffron)}.vh.anti{background:var(--bad-bg);color:var(--bad)}
+.va{padding:13px 18px;border-bottom:1px solid var(--line2);background:var(--card)}
+.va:last-child{border-bottom:none}
+.va .t{font-size:13.4px;font-weight:600;margin-bottom:4px}
+.va .m{font-size:12.2px;color:var(--ink2);line-height:1.5;margin-bottom:7px}
+.sb{display:inline-flex;gap:2px;vertical-align:-1px}
+.sb i{width:14px;height:6px;background:var(--line);display:inline-block}
+.sb i.on{background:var(--ink2)}
+.va .meta{font-family:"IBM Plex Mono",monospace;font-size:9.4px;color:var(--muted)}
+
+/* details */
+details{border:1px solid var(--line);background:var(--card);margin-bottom:7px}
+details[open]{border-color:var(--muted)}
+summary{padding:12px 16px;cursor:pointer;font-size:13.4px;font-weight:500;display:flex;gap:11px;align-items:center;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::before{content:"+";font-family:"IBM Plex Mono",monospace;color:var(--saffron)}
+details[open] summary::before{content:"−"}
+summary:hover{background:var(--wash)}
+.db{padding:0 16px 15px 38px;font-size:12.8px;color:var(--ink2);max-width:78ch}
+.db p{margin-bottom:8px}.db ul{margin:0 0 8px 16px}.db li{margin-bottom:4px}
+
+/* KU */
+.ku{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line)}
+.ku>div{background:var(--card);padding:16px 18px}
+.ku h4{font-size:15px;margin-bottom:4px;display:flex;align-items:baseline;gap:8px}
+.ku h4 b{font-family:"IBM Plex Mono",monospace;font-size:11px;margin-left:auto;font-weight:500}
+.ku .meter{height:4px;background:var(--wash2);margin-bottom:12px}
+.ku .meter i{display:block;height:100%;width:0;transition:width .9s ease}
+.ku ul{list-style:none}
+.ku li{font-size:12.1px;padding:6px 0 6px 14px;position:relative;border-bottom:1px solid var(--line2);color:var(--ink2);line-height:1.45}
+.ku li:last-child{border-bottom:none}
+.ku li::before{content:"";position:absolute;left:0;top:12px;width:5px;height:5px;border-radius:50%}
+.ku .k li::before{background:var(--ok)}.ku .d li::before{background:var(--warn)}.ku .u li::before{background:var(--faint)}
+
+.pull{border-left:3px solid var(--saffron);padding:2px 0 2px 18px;margin:20px 0;font-family:"Newsreader",serif;font-size:18px;line-height:1.42;max-width:56ch}
+.qt{border:1px solid var(--line);background:var(--card);padding:14px 18px}
+.qt .q{font-family:"Newsreader",serif;font-size:15.5px;line-height:1.4;margin-bottom:7px}
+.qt .a{font-family:"IBM Plex Mono",monospace;font-size:9.6px;color:var(--muted)}
+
+/* flow */
+.flow{display:flex;gap:1px;background:var(--line);border:1px solid var(--line);overflow-x:auto}
+.fstep{background:var(--card);padding:13px 15px;min-width:150px;flex:1}
+.fstep.pivot{background:var(--bad-bg)}
+.fstep .fd{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.fstep .ff{font-size:12.4px;line-height:1.4;font-weight:500}
+.fstep.pivot .ff{color:var(--bad)}
+
+.srcrow{display:grid;grid-template-columns:1fr 78px 92px;gap:10px;padding:9px 0;border-bottom:1px solid var(--line2);font-size:12.2px;align-items:center}
+.srcrow:last-child{border-bottom:none}
+.rel{display:flex;gap:2px}.rel i{width:11px;height:9px;background:var(--line)}.rel i.on{background:var(--ink2)}
+
+a.cite{color:var(--blue);text-decoration:none;border-bottom:1px solid var(--bl-bg);transition:.15s}
+a.cite:hover{border-bottom-color:var(--blue);background:var(--bl-bg)}
+a.cite::after{content:"\2197";font-size:.72em;margin-left:2px;opacity:.55;vertical-align:1px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.chip{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.06em;text-transform:uppercase;padding:3px 7px;border:1px solid var(--line);color:var(--ink2);text-decoration:none;background:var(--wash);transition:.15s;white-space:nowrap}
+.chip:hover{border-color:var(--blue);color:var(--blue);background:var(--bl-bg)}
+.chip::before{content:"\25B8";margin-right:4px;color:var(--saffron)}
+.tlb .src a.cite{color:var(--muted);border-bottom-color:var(--line)}
+.tlb .src a.cite:hover{color:var(--blue);border-bottom-color:var(--blue);background:none}
+td a.cite{font-size:12.2px}
+
+/* gauge */
+.gauge{border:1px solid var(--line);background:var(--card);padding:20px 22px 16px;margin-bottom:20px}
+.gscale{position:relative;height:12px;background:linear-gradient(90deg,var(--ok-bg) 0%,var(--warn-bg) 48%,var(--bad-bg) 100%);border:1px solid var(--line);margin:26px 0 8px}
+.gtick{position:absolute;top:0;bottom:0;width:1px;background:var(--line)}
+.gmark{position:absolute;top:-9px;width:3px;height:30px;background:var(--ink);transform:translateX(-50%);transition:left 1.1s cubic-bezier(.2,.8,.2,1);left:0}
+.gmark::after{content:"";position:absolute;top:-7px;left:-4px;width:11px;height:11px;background:var(--ink);transform:rotate(45deg)}
+.gends{display:flex;justify-content:space-between;font-size:11.5px;color:var(--ink2);gap:20px}
+.gends b{display:block;font-family:"IBM Plex Mono",monospace;font-size:8.6px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:2px}
+.gends div:last-child{text-align:right}
+
+/* diverging */
+.dv{display:grid;grid-template-columns:1fr 168px 1fr;align-items:center;gap:0 12px;margin-bottom:7px}
+.dvl{display:flex;justify-content:flex-end}
+.dvr{display:flex;justify-content:flex-start}
+.dvb{height:15px;width:0;display:block;transition:width .95s cubic-bezier(.2,.8,.2,1)}
+.dvc{text-align:center;font-family:"IBM Plex Mono",monospace;font-size:9.4px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink2);line-height:1.3}
+.dvhead{display:grid;grid-template-columns:1fr 168px 1fr;gap:0 12px;margin-bottom:10px;font-family:"IBM Plex Mono",monospace;font-size:9.4px;letter-spacing:.11em;text-transform:uppercase}
+.dvhead div:first-child{text-align:right;color:var(--saffron)}
+.dvhead div:last-child{color:var(--bad)}
+.dvhead div:nth-child(2){text-align:center;color:var(--faint)}
+
+/* score totals */
+.totals{display:flex;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:16px}
+.totals div{background:var(--card);flex:1;padding:12px 14px}
+.totals .tn{font-family:"Newsreader",serif;font-size:25px;line-height:1}
+.totals .tl{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+
+/* quadrant */
+.quad{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:16px}
+.qc{background:var(--card);padding:16px 18px}
+.qc .qt2{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted);margin-bottom:8px;display:flex;align-items:center;gap:7px}
+.qc .qt2 em{width:8px;height:8px;font-style:normal;display:inline-block}
+.qc h5{font-family:"Newsreader",serif;font-size:17px;font-weight:500;margin-bottom:6px;line-height:1.2}
+.qc p{font-size:12.4px;color:var(--ink2);line-height:1.5;margin-bottom:8px;max-width:100%}
+.qc .vd{font-size:11.6px;padding-top:8px;border-top:1px solid var(--line2);color:var(--ink)}
+.qc .vd b{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.1em;text-transform:uppercase;color:var(--saffron);display:block;margin-bottom:3px}
+
+/* mini stat row */
+.mini{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-bottom:18px}
+.mini div{background:var(--card);padding:14px 16px;text-align:center}
+.mini .mv2{font-family:"Newsreader",serif;font-size:30px;line-height:1}
+.mini .mk{font-family:"IBM Plex Mono",monospace;font-size:8.6px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-top:5px}
+
+@media (max-width:1000px){
+  .dv,.dvhead{grid-template-columns:1fr 92px 1fr;gap:0 6px}
+  .dvc{font-size:8.2px}
+  .quad{grid-template-columns:1fr}
+  .gends{font-size:10.5px}
+  .totals{flex-wrap:wrap}
+}
+
+/* donut + swatch tokens */
+.dtrack{stroke:var(--line2)}
+.dseg[data-c="bad"]{stroke:var(--bad)}
+.dseg[data-c="warn"]{stroke:var(--warn)}
+.dseg[data-c="neu"]{stroke:var(--neu)}
+.dseg[data-c="ok"]{stroke:var(--ok)}
+.dseg[data-c="faint"]{stroke:var(--faint)}
+.dnum{fill:var(--ink)}
+.dlab{fill:var(--muted)}
+.sw-bad{background:var(--bad)}.sw-warn{background:var(--warn)}.sw-neu{background:var(--neu)}
+.sw-ok{background:var(--ok)}.sw-faint{background:var(--faint)}
+
+/* theme toggle */
+.tgl{display:flex;align-items:center;gap:0;border:1px solid var(--line);background:var(--card);margin:0 20px 20px 0;width:fit-content}
+.tgl button{font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.1em;text-transform:uppercase;padding:6px 11px;border:none;background:none;color:var(--muted);cursor:pointer;transition:.15s}
+.tgl button.on{background:var(--ink);color:var(--bg)}
+.tgl button:hover:not(.on){color:var(--ink)}
+.tgl-m{margin-left:auto;flex:0 0 auto}
+
+/* dark-only neon treatment */
+[data-theme="dark"] .eyebrow{text-shadow:0 0 16px rgba(255,138,61,.5)}
+[data-theme="dark"] .kpi .v,[data-theme="dark"] .cell .big,[data-theme="dark"] .totals .tn{text-shadow:0 0 18px rgba(255,255,255,.10)}
+[data-theme="dark"] .c-bad,[data-theme="dark"] .fil.c-bad,[data-theme="dark"] .dvb.c-bad{box-shadow:0 0 11px -1px var(--bad)}
+[data-theme="dark"] .c-warn{box-shadow:0 0 11px -1px var(--warn)}
+[data-theme="dark"] .c-ok{box-shadow:0 0 11px -1px var(--ok)}
+[data-theme="dark"] .c-sf,[data-theme="dark"] .dvb.c-sf{box-shadow:0 0 11px -1px var(--saffron)}
+[data-theme="dark"] .c-bl{box-shadow:0 0 11px -1px var(--blue)}
+[data-theme="dark"] .gmark{background:var(--saffron);box-shadow:0 0 16px var(--saffron)}
+[data-theme="dark"] .gmark::after{background:var(--saffron)}
+[data-theme="dark"] .tli.key::before,[data-theme="dark"] .tlmark.key{box-shadow:0 0 12px var(--bad)}
+[data-theme="dark"] .pd{box-shadow:0 0 9px -1px currentColor}
+[data-theme="dark"] .p-sup{box-shadow:0 0 9px -1px var(--saffron)}
+[data-theme="dark"] .p-opp{box-shadow:0 0 9px -1px var(--bad)}
+[data-theme="dark"] .p-con{box-shadow:0 0 9px -1px var(--warn)}
+[data-theme="dark"] .pull{box-shadow:-3px 0 14px -6px var(--saffron)}
+[data-theme="dark"] .b{box-shadow:0 0 10px -4px currentColor}
+[data-theme="dark"] nav.side{background:var(--wash);border-right-color:var(--line)}
+[data-theme="dark"] .ans{border-color:var(--saffron);box-shadow:0 0 26px -18px var(--saffron)}
+[data-theme="dark"] summary::before{text-shadow:0 0 10px var(--saffron)}
+[data-theme="dark"] img,[data-theme="dark"] .donut{filter:none}
+
+/* tricolore rule */
+.tric{display:flex;gap:3px;margin:0 0 18px}
+.tric i{height:3px;width:26px;display:block}
+.tric i:nth-child(1){background:#3d8bff}
+.tric i:nth-child(2){background:#dbe3ec}
+.tric i:nth-child(3){background:#ff4d6a}
+[data-theme="dark"] .tric i:nth-child(1){box-shadow:0 0 9px #3d8bff}
+[data-theme="dark"] .tric i:nth-child(3){box-shadow:0 0 9px #ff4d6a}
+footer::before{content:"";display:flex;gap:3px;height:3px;width:78px;margin-bottom:16px;
+  background:linear-gradient(90deg,#3d8bff 0 33%,#dbe3ec 33% 66%,#ff4d6a 66% 100%)}
+[data-theme="dark"] .eyebrow{text-shadow:0 0 15px rgba(61,139,255,.45)}
+[data-theme="dark"] .gmark{background:#3d8bff;box-shadow:0 0 16px #3d8bff}
+[data-theme="dark"] .gmark::after{background:#3d8bff}
+
+/* country flag chips */
+.fl{display:inline-flex;align-items:center;gap:5px;font-family:"IBM Plex Mono",monospace;font-size:8.8px;letter-spacing:.08em;color:var(--ink2);white-space:nowrap}
+.fl i{width:15px;height:10px;flex:0 0 15px;border:1px solid rgba(128,128,128,.35);border-radius:1.5px;display:inline-block}
+.fl-fr i{background:linear-gradient(90deg,#0055a4 0 33.3%,#f4f6f8 33.3% 66.6%,#ef4135 66.6%)}
+.fl-in i{background:linear-gradient(180deg,#ff9933 0 33.3%,#f4f6f8 33.3% 66.6%,#138808 66.6%)}
+.fl-uk i{background:linear-gradient(0deg,transparent 42%,#c8102e 42% 58%,transparent 58%),linear-gradient(90deg,transparent 40%,#c8102e 40% 60%,transparent 60%),#012169}
+.fl-us i{background:repeating-linear-gradient(180deg,#b31942 0 2px,#f4f6f8 2px 4px)}
+.fl-qa i{background:linear-gradient(90deg,#f4f6f8 0 30%,#8d1b3d 30%)}
+.fl-ca i{background:linear-gradient(90deg,#d80621 0 25%,#f4f6f8 25% 75%,#d80621 75%)}
+.fl-gl i{background:conic-gradient(from 0deg,#4b6478,#7d8794,#4b6478,#7d8794,#4b6478)}
+.langtag{font-family:"IBM Plex Mono",monospace;font-size:8px;letter-spacing:.09em;padding:2px 5px;border:1px solid var(--line);color:var(--muted);margin-left:5px}
+
+/* stance pills */
+.stance{display:inline-block;font-family:"IBM Plex Mono",monospace;font-size:8.6px;letter-spacing:.07em;text-transform:uppercase;padding:3px 7px;border:1px solid;white-space:nowrap;font-weight:500}
+.st-crit{color:var(--bad);border-color:var(--bad);background:var(--bad-bg)}
+.st-supp{color:var(--ok);border-color:var(--ok);background:var(--ok-bg)}
+.st-neut{color:var(--muted);border-color:var(--muted);background:var(--unk-bg)}
+.st-mixed{color:var(--warn);border-color:var(--warn);background:var(--warn-bg)}
+.st-dist{color:var(--blue);border-color:var(--blue);background:var(--bl-bg)}
+
+/* stance meter */
+.smeter{display:flex;height:30px;border:1px solid var(--line);overflow:hidden;margin:6px 0 4px}
+.smeter div{display:flex;align-items:center;justify-content:center;font-family:"IBM Plex Mono",monospace;font-size:9px;color:#fff;width:0;transition:width 1s cubic-bezier(.2,.8,.2,1)}
+
+/* last-updated stamp */
+.stamp{display:inline-flex;align-items:center;gap:8px;font-family:"IBM Plex Mono",monospace;font-size:9.4px;letter-spacing:.12em;text-transform:uppercase;color:var(--ink2);border:1px solid var(--line);padding:5px 11px;margin-bottom:18px;background:var(--card)}
+.stamp .dot{width:7px;height:7px;border-radius:50%;background:var(--ok);flex:0 0 7px}
+[data-theme="dark"] .stamp .dot{box-shadow:0 0 9px var(--ok)}
+
+/* download CTA */
+nav.side{display:flex;flex-direction:column}
+.navfoot{margin-top:auto}
+.dlcta{display:flex;align-items:center;gap:10px;margin:16px 20px 4px 0;padding:11px 12px;
+  border:1px solid var(--line);background:var(--card);text-decoration:none;
+  font-family:"IBM Plex Mono",monospace;font-size:9.2px;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--ink);transition:.16s}
+.dlcta:hover{border-color:var(--bad);color:var(--bad)}
+.dlcta:hover .pdfic{border-color:var(--bad);color:var(--bad)}
+.dlcta small{display:block;font-size:8px;letter-spacing:.05em;color:var(--muted);text-transform:none;margin-top:3px}
+.pdfic{flex:0 0 25px;height:30px;border:1px solid var(--muted);border-radius:2px;display:flex;
+  align-items:flex-end;justify-content:center;padding-bottom:4px;font-family:"IBM Plex Mono",monospace;
+  font-size:7.2px;letter-spacing:.03em;color:var(--muted);position:relative;transition:.16s;overflow:hidden}
+.pdfic::before{content:"";position:absolute;top:-1px;right:-1px;border-width:0 8px 8px 0;border-style:solid;
+  border-color:var(--wash) var(--wash) var(--muted) var(--muted)}
+[data-theme="dark"] .dlcta:hover{box-shadow:0 0 24px -12px var(--bad)}
+
+/* word cloud */
+.cloud{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:center;gap:6px 16px;padding:26px 14px;border:1px solid var(--line);background:var(--card)}
+.cloud span{line-height:1.15;font-family:"Newsreader",Georgia,serif;font-weight:500;white-space:nowrap;transition:.15s;cursor:default}
+.cloud span:hover{opacity:.6}
+.w-c{color:var(--bad)} .w-s{color:var(--ok)} .w-n{color:var(--muted)}
+.w1{font-size:34px} .w2{font-size:27px} .w3{font-size:21px} .w4{font-size:16px} .w5{font-size:13px}
+[data-theme="dark"] .cloud .w1,[data-theme="dark"] .cloud .w2{text-shadow:0 0 22px currentColor}
+.cloudcols{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--line);border:1px solid var(--line);margin-top:18px}
+.cloudcols>div{background:var(--card);padding:16px 18px}
+.cloudcols h5{font-family:"IBM Plex Mono",monospace;font-size:9px;letter-spacing:.11em;text-transform:uppercase;margin-bottom:9px}
+.cloudcols p{font-size:12.3px;color:var(--ink2);line-height:1.55;max-width:100%}
+@media (max-width:1000px){.cloudcols{grid-template-columns:1fr}.w1{font-size:24px}.w2{font-size:20px}.w3{font-size:17px}.w4{font-size:14px}.w5{font-size:12px}}
+
+/* stakeholder legend tidy */
+.legend.tidy{display:grid;grid-template-columns:repeat(5,auto);justify-content:start;gap:10px 22px;
+  border:1px solid var(--line);background:var(--card);padding:12px 16px;margin-top:0}
+.legend.tidy span{display:inline-flex;align-items:center;font-size:11px;color:var(--ink2)}
+.legend.tidy span i{width:11px;height:11px;border-radius:50%;margin-right:7px;flex:0 0 11px}
+@media (max-width:1000px){.legend.tidy{grid-template-columns:repeat(2,auto)}}
+
+footer{padding:34px 56px 54px;background:var(--footbg);color:var(--foottx);border-top:1px solid var(--line)}
+footer h4{color:var(--foothd);font-size:16px;margin-bottom:8px}
+footer p{font-size:11.8px;color:var(--foottx);max-width:78ch}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:1000px){
+  .topbar{display:flex}
+  nav.side{position:fixed;top:0;left:0;height:100vh;transform:translateX(-100%);transition:transform .26s cubic-bezier(.3,.8,.3,1);box-shadow:0 0 40px rgba(0,0,0,.18);width:270px;padding-top:20px}
+  body.navopen nav.side{transform:translateX(0)}
+  nav.side a{padding-top:10px;padding-bottom:10px;font-size:13.4px}
+  main{max-width:100%}
+  section{padding:36px 18px}
+  header.mast{padding:30px 18px 0}
+  header.mast h1{font-size:27px;max-width:100%}
+  header.mast .sub{font-size:14px}
+  .kpis{grid-template-columns:repeat(2,1fr);margin:0 -18px}
+  .kpi .v{font-size:22px}
+  .ans .row{grid-template-columns:1fr}
+  .ans .q{border-right:none;border-bottom:1px solid var(--line)}
+  .g4,.g3,.g2,.vs,.ku{grid-template-columns:1fr}
+  .heat{grid-template-columns:110px repeat(4,1fr);font-size:10.4px}
+  .heat div{padding:7px 4px}
+  .heat .rl{font-size:10.6px}
+  .hc{font-size:8.4px}
+  .tlb{padding-left:0;padding-top:6px}
+  .tlh{flex-wrap:wrap}
+  .tld{flex:0 0 100%;margin-bottom:2px}
+  .tlchart{display:none}
+  .cols{height:130px}
+  .collabels div{font-size:7.6px}
+  footer{padding:28px 18px 44px}
+  .donutwrap{gap:16px}
+  h2.sec{font-size:24px}
+}
+@media (max-width:520px){
+  .kpis{grid-template-columns:1fr 1fr}
+  .cols{gap:5px}.collabels{gap:5px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <button class="burger" id="burger" aria-label="Menu"><span></span></button>
+  <div><div class="tt">The Eiffel Tower Incident</div><div class="ts">Updated 11 Sep, 13:30 IST</div></div>
+  <div class="tgl tgl-m"><button data-t="dark" class="on">Dark</button><button data-t="light">Light</button></div>
+</div>
+<div class="scrim" id="scrim"></div>
+
+<div class="shell">
+<nav class="side" id="nav">
+  <div class="brand">The Eiffel Tower Incident</div>
+  <div class="tric" style="margin:8px 20px 16px 0"><i></i><i></i><i></i></div>
+  <div class="brandsub">Reputational Intelligence Brief</div>
+  <div class="tgl"><button data-t="dark" class="on">Dark</button><button data-t="light">Light</button></div>
+  <a href="#s1" class="on"><span class="n">01</span> Dashboard</a>
+  <a href="#s2"><span class="n">02</span> Timeline</a>
+  <a href="#s8"><span class="n">03</span> Narrative Comparison</a>
+  <a href="#s3"><span class="n">04</span> Known vs Unknown</a>
+  <a href="#s4"><span class="n">05</span> Central Question</a>
+  <a href="#s5"><span class="n">06</span> Claim Verification</a>
+  <a href="#s6"><span class="n">07</span> Media &amp; Framing</a>
+  <a href="#s7"><span class="n">08</span> Sentiment &amp; Stakeholders</a>
+  <a href="#sv"><span class="n">09</span> Voices &amp; Stances</a>
+  <a href="#sd"><span class="n">10</span> Diaspora &amp; Backlash</a>
+  <a href="#sw"><span class="n">11</span> Language &amp; Sentiment</a>
+  <a href="#s9"><span class="n">12</span> Contradictions &amp; Risk</a>
+  <a href="#s10"><span class="n">13</span> Sources</a>
+  <a class="dlcta" href="eiffel-tower-baps-briefing.pdf" download><span class="pdfic">PDF</span><span>Download brief<small>Summary &middot; updated 11 Sep</small></span></a>
+  <div class="navfoot">Last updated<br>11 Sep 2026, 13:30 IST<br><br>Independent analysis. Not commissioned, funded, reviewed or endorsed by anyone.</div>
+</nav>
+
+<main>
+
+<header class="mast">
+  <div class="kicker">Confidential &middot; Independent, unaffiliated</div>
+  <div class="stamp"><span class="dot"></span>LAST UPDATED &nbsp;11 SEPTEMBER 2026, 13:30 IST &nbsp;(10:00 CEST)</div>
+  <h1>The Eiffel Tower Incident</h1>
+  <div style="font-family:'IBM Plex Sans',sans-serif;font-size:17px;color:var(--ink2);margin:-4px 0 14px;max-width:30ch">BAPS, SETE and the Reputational Intelligence Brief</div>
+  <p class="sub">What is established, what is disputed, and how the controversy is being framed across France, India and international media. Every source is linked. This analysis was not commissioned or endorsed by anyone.</p>
+  <div class="tric"><i></i><i></i><i></i></div>
+  <div class="kpis">
+    <div class="kpi"><div class="k">Incident</div><div class="v">5 Sep</div><div class="d">Saturday visit, ~100 people</div></div>
+    <div class="kpi"><div class="k">Tower closed</div><div class="v">1 day</div><div class="d">Staff strike, 7 September</div></div>
+    <div class="kpi"><div class="k">Outlets read</div><div class="v">30</div><div class="d">EN, FR, HI, GU</div></div>
+    <div class="kpi"><div class="k">Named voices</div><div class="v">25</div><div class="d">Mapped by stance, 4 countries</div></div>
+    <div class="kpi"><div class="k">Overall risk</div><div class="v" style="color:var(--bad)">High</div><div class="d">Widening past the incident</div></div>
+  </div>
+</header>
+
+<!-- 01 -->
+<section id="s1">
+  <div class="eyebrow">01 · Dashboard</div>
+  <h2 class="sec">The core fact is settled, and it closed against BAPS</h2>
+  <p class="lede">SETE, the tower operator, confirmed the request itself. The question is no longer whether this happened. It is what exactly was asked, and who is responsible for how it was delivered.</p>
+
+  <div class="ans">
+    <div class="row"><div class="q">What happened</div><div class="a">A BAPS delegation of about 100 visited on Saturday 5 September, tied to the temple consecration the next day. Female staff, including subcontractors, were told to leave posts or avoid certain zones. In some posts men replaced them.<div class="chips"><a class="chip" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">Reuters via CBS</a><a class="chip" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a><a class="chip" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">CNN</a></div></div></div>
+    <div class="row"><div class="q">Confirmed</div><div class="a">SETE stated BAPS asked for a visit limiting interactions with women, and that these conditions should not have been accepted. An admission against its own interest, which makes it strong evidence. Staff struck on 7 September. Two investigations are open.<div class="chips"><a class="chip" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">SETE via France 24</a><a class="chip" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a><a class="chip" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Public Sénat</a></div></div></div>
+    <div class="row"><div class="q">Disputed</div><div class="a">The exact wording. Written or verbal. Who asked, who approved. Whether BAPS requested removal, or requested reduced interaction and SETE chose removal as the method.</div></div>
+    <div class="row"><div class="q">What changed since 9 Sep</div><div class="a">India's MEA <a class="cite" href="https://www.theweek.in/news/india/2026/09/08/baps-eiffel-tower-controversy-india-distances-itself-from-the-row-mea-says-matter-between-entities-concerned.html" target="_blank" rel="noopener">formally distanced itself</a> on 8 September, calling the tower issue &ldquo;a matter purely between the entities concerned&rdquo;. The National Assembly President joined the French criticism. The story then split in two: <a class="cite" href="https://www.france24.com/en/france/20260909-eiffel-tower-row-over-hindu-sect-baps-unites-french-politicians-%E2%80%93-but-divides-indian-diaspora" target="_blank" rel="noopener">France 24 reported</a> that it unites French politicians but divides the Indian diaspora, and a <a class="cite" href="https://www.nationalheraldindia.com/international/the-eiffel-tower-fallout-increase-in-racism-and-anti-immigrant-sentiment-feared" target="_blank" rel="noopener">backlash-against-Indians angle</a> opened. Gujarati-language <a class="cite" href="https://gujarati.opindia.com/opinion/baps-paris-eiffel-tower-controversy-and-why-the-sect-is-wrong-when-it-shifts-the-burden-of-rules-on-society/" target="_blank" rel="noopener">OpIndia published a critical opinion</a>, where its English edition had been sympathetic.</div></div>
+    <div class="row"><div class="q">Biggest exposure</div><div class="a">The BAPS statement is non-responsive. "At no time was access denied to anyone" addresses visitor access. The allegation is about employees being moved. Journalists have noticed.<div class="chips"><a class="chip" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">BAPS statement via Organiser</a><a class="chip" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">CNN</a></div></div></div>
+  </div>
+
+
+  <div class="gauge">
+    <div style="font-family:'IBM Plex Mono',monospace;font-size:9.4px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)">Where the evidence currently sits</div>
+    <div class="gscale">
+      <span class="gtick" style="left:25%"></span><span class="gtick" style="left:50%"></span><span class="gtick" style="left:75%"></span>
+      <span class="gmark" id="gm" data-pos="66"></span>
+    </div>
+    <div class="gends">
+      <div><b>Accommodation, badly executed</b>BAPS asked for reduced interaction. SETE chose removal.</div>
+      <div><b>Request to exclude women</b>BAPS asked for a workplace arranged around employees' gender.</div>
+    </div>
+    <p class="note" style="margin-top:12px">Analyst position, not a finding. It sits right of centre because SETE's own wording refers to women, and because no BAPS document exists to support the milder reading. A written request with no reference to sex would move this marker left.</p>
+  </div>
+
+  <div class="grid g4">
+    <div class="cell"><div class="lbl">Reputational</div><div class="big" style="color:var(--bad)">High</div><div class="desc">Wire-carried into 20+ markets in 72 hours. Frame is gender discrimination. Confirmed by the counterparty.</div></div>
+    <div class="cell"><div class="lbl">Legal</div><div class="big" style="color:var(--warn)">Medium</div><div class="desc">Employment duty sits with SETE as employer. BAPS exposure is secondary and unproven. No finding exists.</div></div>
+    <div class="cell"><div class="lbl">Communications</div><div class="big" style="color:var(--bad)">High</div><div class="desc">The published response does not address the actual allegation.</div></div>
+    <div class="cell"><div class="lbl">Escalation</div><div class="big" style="color:var(--warn)">Med-High</div><div class="desc">Two investigations pending. Any document restarts the cycle.</div></div>
+  </div>
+
+  <details>
+    <summary>How these bands were assigned</summary>
+    <div class="db">
+      <ul>
+        <li><b>Reputational, High.</b> Scored on reach, durability of frame, and whether the core allegation is confirmed. All three point high. Not Critical, because SETE absorbs part of the blame.</li>
+        <li><b>Legal, Medium.</b> French discrimination law places the workplace duty on the employer. BAPS is the customer. No complaint against BAPS reported.</li>
+        <li><b>Communications, High.</b> Scored on whether the organisation's own position survives scrutiny. It does not.</li>
+        <li><b>Escalation, Medium-High.</b> Two investigations, one works-council demand for a written framework, active political environment.</li>
+      </ul>
+      <p>Not scored: financial risk, not assessable from public information.</p>
+    </div>
+  </details>
+</section>
+
+<!-- 02 -->
+<section id="s2">
+  <div class="eyebrow">02 · Timeline</div>
+  <h2 class="sec">A private visit became a national controversy in 72 hours</h2>
+  <p class="lede">Red markers are the moments the trajectory changed. Tap any entry for the underlying evidence.</p>
+
+  <div class="tlchart">
+    <div class="tlaxis">
+      <div class="tlmark" style="left:3%"><span class="tllab" style="left:50%">3 Sep</span></div>
+      <div class="tlmark key" style="left:22%"><span class="tllab" style="left:50%">5 Sep · Visit</span></div>
+      <div class="tlmark" style="left:38%"><span class="tllab" style="left:50%">6 Sep · Temple</span></div>
+      <div class="tlmark key" style="left:56%"><span class="tllab" style="left:50%">7 Sep · Strike</span></div>
+      <div class="tlmark key" style="left:70%"><span class="tllab" style="left:50%">7 Sep · SETE</span></div>
+      <div class="tlmark" style="left:82%"><span class="tllab" style="left:50%">7 Sep · BAPS</span></div>
+      <div class="tlmark" style="left:96%"><span class="tllab" style="left:20%">8 Sep · Inquiries</span></div>
+    </div>
+  </div>
+
+  <div class="tl">
+    <div class="tli"><div class="tlh"><span class="tld">Wed 3 Sep</span><span class="tlt">BAPS ceremony at the foot of the tower, then a Seine river parade</span><span class="chev">▾</span></div>
+      <div class="tlb">A public ceremony with dancers and monks, photographed by AFP. Uncontroversial at the time. The imagery is now being reused to illustrate the controversy.<span class="src">AFP photo wire (Kenzo Tribouillard), carried by <a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">Orange</a> and <a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">CBS News</a> · Reliability 5</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Pre-visit</span><span class="tlt">The visit is arranged with SETE. Terms remain the central unresolved fact</span><span class="chev">▾</span></div>
+      <div class="tlb">No public evidence establishes the date, channel, wording or authorship of the request. SETE characterised it one way, BAPS another. Neither has published it. This is the largest evidentiary gap in the matter.<span class="src">UNVERIFIED · No primary document public</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">Sat 5 Sep</span><span class="tlt">The visit. Female staff moved off posts, replaced in some cases by men</span><span class="chev">▾</span></div>
+      <div class="tlb">Roughly 100 people visited at the start of normal opening hours. Instructions applied to Eiffel Tower employees and subcontractor staff. Some were asked to leave posts and withdraw to internal rooms. All female employees were told not to cross certain areas while the delegation was present.<span class="src">Staff statement via CGT (<a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">Europe 1</a>) · staff letter obtained by <a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a> · Diane Davoine to Reuters (<a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">CBS</a>) · Reliability 4</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Sun 6 Sep</span><span class="tlt">Temple consecration at Bussy-Saint-Georges. Modi addresses by video</span><span class="chev">▾</span></div>
+      <div class="tlb">The first major BAPS mandir in France, promoted as the largest traditionally built Hindu temple in mainland Europe. The rite itself was closed to press and attended only by monks and men, relayed to a mixed audience of about 7,000. The temple then opened to all. <b>Modi has made no statement on the Eiffel Tower incident.</b> Treating his temple remarks as a comment on it would be an error.<span class="src">AFP on-site, Laurence Boutreux (<a class="cite" href="https://www.sudradio.fr/societe/foule-dhindous-pres-de-paris-pour-la-consecration-du-premier-temple-du-mouvement-baps" target="_blank" rel="noopener">Sud Radio</a>, <a class="cite" href="https://www.france24.com/fr/info-en-continu/20260906-foule-%C3%A0-l-inauguration-d-un-temple-embl%C3%A8me-de-l-hindouisme-en-france" target="_blank" rel="noopener">France 24</a>) · Modi video message (<a class="cite" href="https://organiser.org/2026/09/07/379113/bharat/baps-swaminarayan-temple-in-paris-pm-modi-calls-pran-pratishtha-a-new-era-for-india-france-cultural-relations/" target="_blank" rel="noopener">Organiser</a>, <a class="cite" href="https://www.socialnews.xyz/2026/09/06/pm-modi-hails-consecration-of-baps-swaminarayan-temple-in-paris-as-milestone-for-india-france-cultural-ties/" target="_blank" rel="noopener">Social News XYZ</a>) · Reliability 5</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">Mon 7 Sep</span><span class="tlt">Staff vote to strike. The tower closes for the day</span><span class="chev">▾</span></div>
+      <div class="tlb">Staff condemned professional instructions that led to female employees being &ldquo;sidelined, replaced and made invisible because of their sex&rdquo;, the union&rsquo;s own wording. A separate letter obtained by franceinfo used the French legal term &ldquo;discrimination sexuelle&rdquo;. A second assembly voted to return to work Tuesday.<span class="src">CGT statement to AFP (<a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">Europe 1</a>, <a class="cite" href="https://www.lapresse.ca/international/europe/2026-09-08/mise-a-l-ecart-des-femmes-employees/la-tour-eiffel-rouvre-apres-la-visite-controversee-d-un-groupe-religieux.php" target="_blank" rel="noopener">La Presse</a>) · Denis Vavassori to <a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a> · Reliability 4</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">Mon 7 Sep</span><span class="tlt">SETE confirms the request and says it should not have been accepted</span><span class="chev">▾</span></div>
+      <div class="tlb">SETE acknowledged the delegation asked for a visit limiting interactions with women, called the arrangements inconsistent with its values and with gender equality and neutrality principles, and apologised to employees. President Ariel Weil restated the tower's commitment to republican values.<span class="src">SETE statement to AFP (<a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">France 24</a>, <a class="cite" href="https://www.aljazeera.com/news/2026/9/8/what-is-baps-the-hindu-group-whose-demands-led-to-eiffel-tower-closure" target="_blank" rel="noopener">Al Jazeera</a>) · Ariel Weil quote (<a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">OpIndia</a>) · Reliability 4, weighted up as a statement against interest</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Mon 7 Sep</span><span class="tlt">BAPS Paris responds on X</span><span class="chev">▾</span></div>
+      <div class="tlb">BAPS said it took the concerns seriously, that given the delegation's size the visit was coordinated with Eiffel Tower teams at the start of normal opening hours to minimise disruption to other visitors, and that to its knowledge no one was denied access. It apologised for any hurt or inconvenience. To CNN it added the request was never rooted in gender.<span class="src">BAPS Paris on X, French text via <a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">Europe 1</a> and <a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">Organiser</a> · English statement to <a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">CNN</a> · Reliability 4</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">7–8 Sep</span><span class="tlt">Political condemnation across the spectrum</span><span class="chev">▾</span></div>
+      <div class="tlb">Mayor Emmanuel Grégoire called it absurd, iniquitous and unacceptable, and de facto discrimination. Equality Minister Aurore Bergé said the facts were unacceptable if confirmed, and that no dogma sits above the laws of the Republic. Valérie Pécresse said she had personally told BAPS representatives such practices are contrary to French law. Marine Le Pen said France will never accept the presence of women being limited.<span class="src">Mayoral press conference and ministerial X posts via <a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Public Sénat</a> and <a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">Orange</a> · Grégoire quotes via <a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">CNN</a> · Reliability 4</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">Sat 5 Sep</span><span class="tlt">Indian Alliance Paris holds a press meeting on BAPS, hours before the tower visit</span><span class="chev">▾</span></div>
+      <div class="tlb">A diaspora group opposed to Hindu nationalism, together with three other organisations including the CGT, invited the French press to a public meeting about BAPS and the global spread of Hindu nationalism. It took place the same day as the Eiffel Tower visit. This matters: a critical frame was already circulating among French journalists and the union before the incident occurred.<span class="src"><a class="cite" href="https://www.newsy-today.com/eiffel-tower-baps-row-unites-french-politicians-divides-indian-diaspora/" target="_blank" rel="noopener">Indian Alliance Paris via France 24 reporting</a> · Reliability 3</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Tue 8 Sep</span><span class="tlt">Tower reopens. Two investigations announced. Works council demands a framework</span><span class="chev">▾</span></div>
+      <div class="tlb">The monument reopened at 08:00 CEST. Diane Davoine, works council secretary, said staff are waiting for answers and want a framework so it never recurs. The CGT indicated an agreement governing VIP delegations will be examined in coming weeks.<span class="src"><a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Public Sénat</a> · <a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">France 24</a> · <a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a> · Reliability 4</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">Tue 8 Sep</span><span class="tlt">India&rsquo;s MEA distances the government from the row</span><span class="chev">▾</span></div>
+      <div class="tlb">At a New Delhi briefing, MEA spokesperson Randhir Jaiswal said: &ldquo;We are aware of the opening of a temple by the BAPS Sanstha in the Paris area. As to the particular issue pertaining to the Tower, this is a matter purely between the entities concerned.&rdquo; Asked why Modi had addressed the inauguration, he called it common practice, done virtually, with &ldquo;no cause for any comment&rdquo;. <b>This is the single most consequential development since the 9th.</b> The Indian state has publicly placed distance between itself and BAPS on this matter, which removes a defender and signals that the government does not intend to absorb reputational cost on the organisation&rsquo;s behalf.<span class="src"><a class="cite" href="https://www.theweek.in/news/india/2026/09/08/baps-eiffel-tower-controversy-india-distances-itself-from-the-row-mea-says-matter-between-entities-concerned.html" target="_blank" rel="noopener">The Week</a> · <a class="cite" href="https://www.outlookindia.com/international/eiffel-tower-row-over-baps-visit-private-matter-between-entities-says-mea" target="_blank" rel="noopener">Outlook India</a> · ANI briefing · Reliability 4</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Tue 8 Sep</span><span class="tlt">National Assembly President and Indian opposition figures weigh in</span><span class="chev">▾</span></div>
+      <div class="tlb">Ya&euml;l Braun-Pivet, President of the French National Assembly, said women should not be required to step aside to accommodate the demands of foreign visitors. In India, Shiv Sena (UBT) MP Priyanka Chaturvedi criticised the reported treatment and said it does not represent how India thinks about equality. Her remarks were personal, not governmental.<span class="src"><a class="cite" href="https://www.theweek.in/news/india/2026/09/08/baps-eiffel-tower-controversy-india-distances-itself-from-the-row-mea-says-matter-between-entities-concerned.html" target="_blank" rel="noopener">The Week</a> · <a class="cite" href="https://www.brut.media/in/articles/eiffel-tower-shut-after-baps-visit-what-happened-to-trigger-a-women-staff-protest" target="_blank" rel="noopener">Brut India</a> · Reliability 4</span></div></div>
+
+    <div class="tli key"><div class="tlh"><span class="tld">Wed 9 Sep</span><span class="tlt">The story splits: French unity, diaspora division, and a racism warning</span><span class="chev">▾</span></div>
+      <div class="tlb">France 24 published an analysis headlined that the row unites French politicians but divides the Indian diaspora. Indian Alliance Paris posted that the affair must not become a pretext for more racism, while also describing BAPS as a retrograde sect linked to the Indian far right that &ldquo;does not represent all Hindus and certainly does not represent India&rdquo;. Both halves of that statement matter. Sunita Viswanath of Hindus for Human Rights said she was dismayed French authorities had not examined the sect&rsquo;s record.<span class="src"><a class="cite" href="https://www.france24.com/en/france/20260909-eiffel-tower-row-over-hindu-sect-baps-unites-french-politicians-%E2%80%93-but-divides-indian-diaspora" target="_blank" rel="noopener">France 24</a> · <a class="cite" href="https://www.nationalheraldindia.com/international/the-eiffel-tower-fallout-increase-in-racism-and-anti-immigrant-sentiment-feared" target="_blank" rel="noopener">National Herald</a> · <a class="cite" href="https://www.newsy-today.com/eiffel-tower-baps-row-unites-french-politicians-divides-indian-diaspora/" target="_blank" rel="noopener">IAP statement</a> · Reliability 3</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Wed 9 &ndash; Thu 10 Sep</span><span class="tlt">Coverage widens to the New Jersey labour case and to French land-allocation claims</span><span class="chev">▾</span></div>
+      <div class="tlb">France 24 ran a long feature on a former BAPS temple worker in the United States, reviving the Robbinsville labour allegations. The US federal investigation closed in 2025 without charges; the civil class action continues. Separately, French far-right figures began alleging that land was allocated to BAPS under Indian government pressure, linking it to defence trade. No evidence for that claim has been published.<span class="src"><a class="cite" href="https://www.france24.com/en/americas/20260910-how-a-former-baps-temple-worker-in-the-us-got-his-freedom-but-still-seeks-justice" target="_blank" rel="noopener">France 24 feature</a> · <a class="cite" href="https://www.nationalheraldindia.com/international/the-eiffel-tower-fallout-increase-in-racism-and-anti-immigrant-sentiment-feared" target="_blank" rel="noopener">National Herald</a> · <a class="cite" href="https://www.outlookindia.com/international/eiffel-tower-baps-row-what-is-baps-and-why-are-its-practices-under-scrutiny" target="_blank" rel="noopener">Outlook</a> · Reliability 3 for the labour case, 1 for the land claim</span></div></div>
+
+    <div class="tli"><div class="tlh"><span class="tld">Thu 10 &ndash; Fri 11 Sep</span><span class="tlt">Indian-language coverage turns, and the community response scales</span><span class="chev">▾</span></div>
+      <div class="tlb">Gujarati OpIndia published an opinion arguing the sect may set rules for its sadhus but must not shift the burden of those rules onto society. Its English edition had run a sympathetic piece two days earlier. Hindi outlets picked the story up as an explainer. In parallel, a large volume of first-person posts from BAPS women appeared on Instagram, several passing 1,000 likes and one above 4,900. As of 13:30 IST on 11 September, neither investigation has reported.<span class="src"><a class="cite" href="https://gujarati.opindia.com/opinion/baps-paris-eiffel-tower-controversy-and-why-the-sect-is-wrong-when-it-shifts-the-burden-of-rules-on-society/" target="_blank" rel="noopener">Gujarati OpIndia</a> · <a class="cite" href="https://www.garavigujarat.biz/baps-saints-at-eiffel-tower" target="_blank" rel="noopener">Garavi Gujarat</a> · <a class="cite" href="https://www.newsjungal.com/2026/09/baps.html" target="_blank" rel="noopener">Hindi coverage</a> · direct observation of public posts · Reliability 4</span></div></div>
+  </div>
+</section>
+
+<!-- 03 -->
+<section id="s8">
+  <div class="eyebrow">03 &middot; Narrative Comparison</div>
+  <h2 class="sec">The strongest case each side can make</h2>
+  <p class="lede">Arguments paired by theme and scored one to four on evidentiary strength. Analyst coding, open to challenge.</p>
+
+  <div class="chart" id="dvchart">
+    <h4>Balance of argument strength</h4>
+    <div class="cap">Bar length is evidentiary strength, not how persuasive the argument sounds.</div>
+    <div class="dvhead"><div>&#9664; For BAPS</div><div>Theme</div><div>Against BAPS &#9654;</div></div>
+
+    <div class="dv"><div class="dvl"><span class="dvb c-sf" data-w="75"></span></div><div class="dvc">Who decided</div><div class="dvr"><span class="dvb c-bad" data-w="100"></span></div></div>
+    <div class="dv"><div class="dvl"><span class="dvb c-sf" data-w="75"></span></div><div class="dvc">Doctrine vs foreseeability</div><div class="dvr"><span class="dvb c-bad" data-w="75"></span></div></div>
+    <div class="dv"><div class="dvl"><span class="dvb c-sf" data-w="50"></span></div><div class="dvc">What was asked</div><div class="dvr"><span class="dvb c-bad" data-w="75"></span></div></div>
+    <div class="dv"><div class="dvl"><span class="dvb c-sf" data-w="50"></span></div><div class="dvc">The public response</div><div class="dvr"><span class="dvb c-bad" data-w="100"></span></div></div>
+    <div class="dv"><div class="dvl"><span class="dvb c-sf" data-w="25"></span></div><div class="dvc">Isolated or pattern</div><div class="dvr"><span class="dvb c-bad" data-w="50"></span></div></div>
+    <div class="dv"><div class="dvl"><span class="dvb c-sf" data-w="1"></span></div><div class="dvc">Outreach positioning</div><div class="dvr"><span class="dvb c-bad" data-w="50"></span></div></div>
+
+    <div class="totals">
+      <div><div class="tn" style="color:var(--saffron)">11</div><div class="tl">Total strength, for BAPS</div></div>
+      <div><div class="tn" style="color:var(--bad)">18</div><div class="tl">Total strength, against</div></div>
+      <div><div class="tn">0</div><div class="tl">Pro arguments scoring 4 of 4</div></div>
+    </div>
+  </div>
+
+  <div class="vs">
+    <div>
+      <div class="vh pro">For BAPS</div>
+      <div class="va"><div class="t">The employer made the decision</div><div class="m">SETE issued the instructions, apologised, and is the target of the investigations.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> &nbsp;Silent on whether the request should have been made</div></div>
+      <div class="va"><div class="t">A vow constrains the monk, not women</div><div class="m">Brahmacharya binds the sadhu. Lay members are exempt. Doctrinally verifiable.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> &nbsp;Explains the belief, not the delivery</div></div>
+      <div class="va"><div class="t">No evidence BAPS asked for removal</div><div class="m">Nobody has published wording saying remove women or replace them with men.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i></i><i></i></span> &nbsp;Collapses if a document surfaces</div></div>
+      <div class="va"><div class="t">BAPS apologised within 48 hours</div><div class="m">Public, and it did not dispute the staff's distress.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i></i><i></i></span> &nbsp;Paired with a denial that undercuts it</div></div>
+      <div class="va"><div class="t">Cross-cultural coordination failure</div><div class="m">Volunteer organisers, foreign venue, three languages, no clean French equivalent for the concept.</div><div class="meta"><span class="sb"><i class="on"></i><i></i><i></i><i></i></span> &nbsp;An assertion until the correspondence appears</div></div>
+      <div class="va" style="background:var(--wash)"><div class="t" style="color:var(--muted)">No counterpart</div><div class="m" style="margin-bottom:0">No pro-BAPS argument addresses the outreach-positioning criticism.</div></div>
+    </div>
+    <div>
+      <div class="vh anti">Against BAPS</div>
+      <div class="va"><div class="t">The request was made at all</div><div class="m">An organisation asked a French monument to arrange staffing around employees' gender. <a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">The counterparty confirmed it</a>.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> &nbsp;Counter-evidence: none</div></div>
+      <div class="va"><div class="t">The consequence was foreseeable</div><div class="m">At a staffed monument, limiting interaction with women can only be done by moving women.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> &nbsp;BAPS may have expected another method</div></div>
+      <div class="va"><div class="t">Contradicted by its own spokesperson</div><div class="m">A volunteer <a class="cite" href="https://www.sudradio.fr/societe/foule-a-linauguration-dun-temple-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">told AFP</a> that saints have rules, which is why men and women are separated.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i class="on"></i><i></i></span> &nbsp;The quote referred to ceremonies</div></div>
+      <div class="va"><div class="t">The response does not answer the accusation</div><div class="m">Nobody alleged visitors were denied access. <a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">Leading with that</a> reads as deflection.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></span> &nbsp;Counter-evidence: none. Self-inflicted</div></div>
+      <div class="va"><div class="t">A pattern, not an isolated lapse</div><div class="m">The consecration rite next day was men-only. <a class="cite" href="https://www.sudradio.fr/societe/pres-de-paris-linauguration-dun-temple-comme-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">Jaffrelot to AFP</a> made the same characterisation earlier.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i></i><i></i></span> &nbsp;A private rite differs from a public workplace</div></div>
+      <div class="va"><div class="t">Gap between outreach and practice</div><div class="m">BAPS presents itself as bridge-building. Critics say this reveals a limit the messaging conceals.</div><div class="meta"><span class="sb"><i class="on"></i><i class="on"></i><i></i><i></i></span> &nbsp;Extensive service work involving women</div></div>
+    </div>
+  </div>
+  <p class="note">The three strongest defences are about SETE, about doctrine, or about missing evidence. None says BAPS acted well.</p>
+</section>
+
+<!-- 03 -->
+<section id="s3">
+  <div class="eyebrow">04 · Evidence Position</div>
+  <h2 class="sec">Known, disputed, unknown</h2>
+  <p class="lede">Bar length shows how much of the picture each category represents, by count of material facts.</p>
+
+
+  <div class="chart">
+    <h4>Composition of the evidence base</h4>
+    <div class="cap">24 material facts, coded by evidentiary position.</div>
+    <div class="donutwrap">
+      <svg class="donut" width="146" height="146" viewBox="0 0 150 150">
+        <circle cx="75" cy="75" r="54" fill="none" class="dtrack" stroke-width="22"/>
+        <circle class="dseg" cx="75" cy="75" r="54" fill="none" data-c="ok" stroke-width="22" stroke-dasharray="339.29" stroke-dashoffset="339.29" data-len="141.4" transform="rotate(-90 75 75)"/>
+        <circle class="dseg" cx="75" cy="75" r="54" fill="none" data-c="warn" stroke-width="22" stroke-dasharray="339.29" stroke-dashoffset="339.29" data-len="84.8" transform="rotate(60 75 75)"/>
+        <circle class="dseg" cx="75" cy="75" r="54" fill="none" data-c="faint" stroke-width="22" stroke-dasharray="339.29" stroke-dashoffset="339.29" data-len="113.1" transform="rotate(150 75 75)"/>
+        <text x="75" y="70" text-anchor="middle" font-family="Newsreader,serif" font-size="27" class="dnum">24</text>
+        <text x="75" y="87" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="8" letter-spacing="1" class="dlab">FACTS</text>
+      </svg>
+      <div class="dlist">
+        <div class="di"><i class="sw-ok"></i>Established<b>10</b></div>
+        <div class="di"><i class="sw-warn"></i>Disputed<b>6</b></div>
+        <div class="di"><i class="sw-faint"></i>Unknown<b>8</b></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ku">
+    <div>
+      <h4>Established <b style="color:var(--ok)">10</b></h4>
+      <div class="meter"><i class="c-ok" data-w="100"></i></div>
+      <ul class="k">
+        <li>Delegation of ~100 visited on 5 September</li>
+        <li>Visit tied to the temple consecration</li>
+        <li>SETE says BAPS asked to limit interactions with women</li>
+        <li>SETE says the conditions should not have been accepted</li>
+        <li>Instructions treated female employees differently</li>
+        <li>Subcontractor staff were also covered</li>
+        <li>Staff struck; tower closed a full day</li>
+        <li>Reopened 8 September, 08:00 CEST</li>
+        <li>Two investigations ordered by the Mayor</li>
+        <li>BAPS apologised for hurt or inconvenience</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Disputed <b style="color:var(--warn)">6</b></h4>
+      <div class="meter"><i class="c-warn" data-w="60"></i></div>
+      <ul class="d">
+        <li>Whether the request named women</li>
+        <li>Whether BAPS foresaw removal from posts</li>
+        <li>Motive: delegation size or sadhu vows</li>
+        <li>Whether the tower was privatised</li>
+        <li>Whether the staff&rsquo;s &ldquo;violences sexistes&rdquo; wording fits</li>
+        <li>How long women were displaced</li>
+      </ul>
+    </div>
+    <div>
+      <h4>Unknown <b style="color:var(--unk)">8</b></h4>
+      <div class="meter"><i style="background:var(--faint)" data-w="80"></i></div>
+      <ul class="u">
+        <li>The literal wording of the request</li>
+        <li>Written or verbal</li>
+        <li>Who asked, on the BAPS side</li>
+        <li>Who approved, at SETE</li>
+        <li>Whether an agency was involved</li>
+        <li>Whether comparable requests were made elsewhere</li>
+        <li>Whether any organiser saw the displacement</li>
+        <li>What the investigations will find</li>
+      </ul>
+    </div>
+  </div>
+  <p class="note">An empty box is not a defence. Absence of a published document does not mean none exists, and any internal record will surface if an investigation requests it.</p>
+
+  <div class="grid g2" style="margin-top:20px">
+    <div class="cell"><div class="qt" style="border:none;padding:0"><div class="q">The delegation requested a visit limiting interactions with women, and these conditions should not have been accepted.</div><div class="a"><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">SETE to AFP</a> · <span class="b b-ok">Against interest</span></div></div></div>
+    <div class="cell"><div class="qt" style="border:none;padding:0"><div class="q">We have saints and they have rules to respect, so women are on one side and men on the other, but that has nothing to do with inequality.</div><div class="a"><a class="cite" href="https://www.sudradio.fr/societe/foule-a-linauguration-dun-temple-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">Vaïbhavi Parekh to AFP</a>, before the story broke · <span class="b b-wn">Contradicts the later denial</span></div></div></div>
+  </div>
+</section>
+
+<!-- 04 -->
+<section id="s4">
+  <div class="eyebrow">05 · Central Question</div>
+  <h2 class="sec">Did BAPS ask for women to be removed, or ask for something SETE delivered that way?</h2>
+  <p class="lede">This decides whether the correct description is a badly executed accommodation or a request to exclude women.</p>
+
+  <div class="grid g3">
+    <div class="cell"><div class="lbl">Was a request made?</div><div class="big" style="color:var(--ok);font-size:19px">Yes</div><div class="desc">Confirmed by SETE. Not denied by BAPS.</div></div>
+    <div class="cell"><div class="lbl">Did it reference women?</div><div class="big" style="color:var(--warn);font-size:19px">Probably</div><div class="desc">SETE's wording says so. BAPS denies. No document.</div></div>
+    <div class="cell"><div class="lbl">Written or verbal?</div><div class="big" style="color:var(--unk);font-size:19px">Unknown</div><div class="desc">Nothing public. Investigations will likely establish it.</div></div>
+    <div class="cell"><div class="lbl">Did SETE accept?</div><div class="big" style="color:var(--ok);font-size:19px">Yes</div><div class="desc">Admitted. Approver not named.</div></div>
+    <div class="cell"><div class="lbl">Were women moved?</div><div class="big" style="color:var(--ok);font-size:19px">Yes</div><div class="desc">Consistent across staff, works council and CGT.</div></div>
+    <div class="cell"><div class="lbl">Did BAPS foresee it?</div><div class="big" style="color:var(--unk);font-size:19px">Unknown</div><div class="desc">No evidence either way. Most consequential open question.</div></div>
+  </div>
+
+  <div class="pull">A request to limit interaction and a request to remove women are not the same act. But at a staffed monument, the first can only be delivered by doing the second.</div>
+
+  <div class="quad">
+    <div class="qc">
+      <div class="qt2"><em style="background:var(--ok)"></em>Distinction 1</div>
+      <h5>Religious boundary vs workplace discrimination</h5>
+      <p>A vow constrains the monk. It becomes something else when observance is delivered by changing another person's working conditions based on their gender. French law treats that transfer point as the operative fact.</p>
+      <div class="vd"><b>Assessment</b>The vow is not misogyny. The implementation was still discrimination, because staff experienced different treatment based on gender.</div>
+    </div>
+    <div class="qc">
+      <div class="qt2"><em style="background:var(--warn)"></em>Distinction 2</div>
+      <h5>Accommodation vs exclusion</h5>
+      <p>An accommodation adjusts the practitioner. Routing monks through low-staffed areas, or visiting outside hours, would not have caused this. An exclusion adjusts other people.</p>
+      <div class="vd"><b>Assessment</b>What was delivered was an exclusion. Whether BAPS asked for an accommodation and got one is unproven.</div>
+    </div>
+    <div class="qc">
+      <div class="qt2"><em style="background:var(--bad)"></em>Distinction 3</div>
+      <h5>Intent vs effect</h5>
+      <p>The BAPS position is an intent argument. French law and French opinion are effect-based. The staff statement is entirely about effect: sidelined, replaced, made invisible.</p>
+      <div class="vd"><b>Assessment</b>An intent defence does not engage an effect-based accusation. This is why the statement did not reduce pressure.</div>
+    </div>
+    <div class="qc">
+      <div class="qt2"><em style="background:var(--blue)"></em>Distinction 4</div>
+      <h5>Who carries responsibility</h5>
+      <p>The workplace duty sits with the employer, which is why the investigations target SETE's internal approval. The penal code also covers conditioning a service on a protected characteristic <a class="cite" href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006165298/2026-08-06" target="_blank" rel="noopener">(art. 225-1 to 225-4)</a>, but no such case has been reported.</p>
+      <div class="vd"><b>Assessment</b>Legal responsibility most likely sits with SETE. Reputational responsibility is being assigned to both. Winning the legal point would not fix the reputational one.</div>
+    </div>
+  </div>
+  <p class="note">Not legal advice. Confirm any legal position with French counsel.</p>
+</section>
+
+<!-- 05 -->
+<section id="s5">
+  <div class="eyebrow">06 · Claim Verification</div>
+  <h2 class="sec">Twenty-two claims, assessed against the underlying source</h2>
+
+  <div class="chart">
+    <h4>Assessment distribution</h4>
+    <div class="cap">Assessment reflects evidence strength, not whether the claim favours BAPS.</div>
+    <div class="cols" id="claimcols">
+      <div class="col"><span class="num">10</span><div class="bar c-ok" data-h="100"></div></div>
+      <div class="col"><span class="num">3</span><div class="bar c-ok" data-h="33" style="opacity:.65"></div></div>
+      <div class="col"><span class="num">1</span><div class="bar c-neu" data-h="11"></div></div>
+      <div class="col"><span class="num">3</span><div class="bar c-warn" data-h="33"></div></div>
+      <div class="col"><span class="num">3</span><div class="bar" data-h="33" style="background:var(--faint)"></div></div>
+      <div class="col"><span class="num">1</span><div class="bar c-bad" data-h="11" style="opacity:.7"></div></div>
+      <div class="col"><span class="num">1</span><div class="bar c-bad" data-h="11"></div></div>
+    </div>
+    <div class="collabels"><div>Verified</div><div>Highly<br>probable</div><div>Plausible</div><div>Disputed</div><div>Unverified</div><div>Misleading</div><div>False</div></div>
+  </div>
+
+  <div class="filters">
+    <button class="fb on" data-f="all">All</button>
+    <button class="fb" data-f="VERIFIED">Verified</button>
+    <button class="fb" data-f="HIGHLY">Highly prob.</button>
+    <button class="fb" data-f="DISPUTED">Disputed</button>
+    <button class="fb" data-f="UNVERIFIED">Unverified</button>
+    <button class="fb" data-f="MISLEADING">Misleading</button>
+    <input type="text" id="csearch" placeholder="Search claims...">
+    <span class="cnt" id="ccount"></span>
+  </div>
+
+  <div class="tw">
+    <table id="claims">
+      <thead><tr><th class="s" data-c="0">Claim</th><th class="s" data-c="1">Source</th><th>Evidence basis</th><th class="s" data-c="3">Assessment</th></tr></thead>
+      <tbody>
+        <tr><td>Delegation of ~100 visited on 5 September</td><td><a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">CBS/Reuters</a>, <a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">AFP</a></td><td>Multiple independent accounts, uncontested</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>BAPS requested the visit limit interactions with women</td><td><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">SETE to AFP</a></td><td>Counterparty statement, against its own interest</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>SETE accepted the conditions and later said it should not have</td><td>SETE to AFP</td><td>Admission of fault by the admitting party</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>Female employees asked to leave posts and withdraw</td><td><a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">CGT</a>, <a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a></td><td>Two overlapping worker accounts, not denied by SETE</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>Men replaced women at some posts</td><td><a class="cite" href="https://www.aljazeera.com/news/2026/9/8/what-is-baps-the-hindu-group-whose-demands-led-to-eiffel-tower-closure" target="_blank" rel="noopener">Staff stmt</a>, <a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">Reuters</a></td><td>Union and works-council accounts, consistent</td><td><span class="b b-ok">Highly probable</span></td></tr>
+        <tr><td>Instructions extended to subcontractor staff</td><td><a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a></td><td>Single well-sourced report quoting internal wording</td><td><span class="b b-ok">Highly probable</span></td></tr>
+        <tr><td>Tower closed 7 September due to strike over this incident</td><td><a class="cite" href="https://www.lapresse.ca/international/europe/2026-09-08/mise-a-l-ecart-des-femmes-employees/la-tour-eiffel-rouvre-apres-la-visite-controversee-d-un-groupe-religieux.php" target="_blank" rel="noopener">La Presse/AFP</a></td><td>Publicly observable event with stated cause</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>Tower reopened 8 September at 08:00 CEST</td><td><a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">AFP via Orange</a></td><td>Consistent across wire copy</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>BAPS apologised</td><td><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">BAPS Paris on X</a></td><td>Primary statement published by the organisation</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>The request was never rooted in gender</td><td><a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">BAPS Paris to CNN</a></td><td>Interested-party assertion. Contradicted by SETE. No document</td><td><span class="b b-wn">Disputed</span></td></tr>
+        <tr><td>The arrangement was motivated only by delegation size</td><td>BAPS Paris on X</td><td>Does not explain why instructions were gender-specific</td><td><span class="b b-wn">Disputed</span></td></tr>
+        <tr><td>No one was denied access to the Eiffel Tower</td><td><a class="cite" href="https://x.com/BAPSParis/status/2097042887146156073" target="_blank" rel="noopener">BAPS Paris on X</a></td><td>Uncontested. No party &mdash; not the union, the works council or SETE &mdash; has alleged any visitor was refused entry. It addresses visitor access, a separate question from the staffing instruction</td><td><span class="b b-ok">Verified as stated</span></td></tr>
+        <tr><td>The request was made in writing</td><td>None</td><td>No source claims this. No document public</td><td><span class="b b-uk">Unverified</span></td></tr>
+        <tr><td>BAPS knew women would be removed from posts</td><td>Critical commentary</td><td>No evidence presented. Plausible but not established</td><td><span class="b b-uk">Unverified</span></td></tr>
+        <tr><td>Women were prevented from working or lost pay</td><td>Social media</td><td>Staff described displacement, not suspension. No pay claim made</td><td><span class="b b-bd">Misleading</span></td></tr>
+        <tr><td>The tower was privatised for the visit</td><td>Critical social posts</td><td>BAPS says normal opening hours. Not corroborated by SETE or unions</td><td><span class="b b-wn">Disputed</span></td></tr>
+        <tr><td>Sadhu vows restrict contact and interaction with women</td><td><a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">BAPS material via OpIndia</a></td><td>Doctrinal, documented by the organisation. Monks only, not lay members</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>The 6 September consecration rite was attended only by men</td><td><a class="cite" href="https://www.sudradio.fr/societe/foule-dhindous-pres-de-paris-pour-la-consecration-du-premier-temple-du-mouvement-baps" target="_blank" rel="noopener">AFP on site</a></td><td>Reported on site. Relayed to ~7,000 mixed audience by screen</td><td><span class="b b-ok">Highly probable</span></td></tr>
+        <tr><td>Modi commented on the Eiffel Tower incident</td><td>Commentary. See <a class="cite" href="https://organiser.org/2026/09/07/379113/bharat/baps-swaminarayan-temple-in-paris-pm-modi-calls-pran-pratishtha-a-new-era-for-india-france-cultural-relations/" target="_blank" rel="noopener">Modi video message</a></td><td>He addressed the temple by video. No statement on the incident reported</td><td><span class="b b-bd">False as stated</span></td></tr>
+        <tr><td>Pécresse told BAPS representatives the practices breach French law</td><td><a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">Pécresse via AFP</a></td><td>First-person account. Not independently corroborated</td><td><span class="b b-ok">Plausible</span></td></tr>
+        <tr><td>Two investigations ordered by the Mayor of Paris</td><td><a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Grégoire presser</a></td><td>Announced publicly. Scope not yet detailed</td><td><span class="b b-ok">Verified</span></td></tr>
+        <tr><td>BAPS made similar arrangements at venues in other countries</td><td>None in reviewed record</td><td>No reporting establishes a prior instance. Absence of evidence only</td><td><span class="b b-uk">Unverified</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- 06 -->
+<section id="s6">
+  <div class="eyebrow">07 · Media &amp; Framing</div>
+  <h2 class="sec">Twenty-one items. Six original sources. One wire.</h2>
+  <p class="lede">This is not twenty independent investigations. It is a handful of originating accounts, amplified. The story is wide but shallow.</p>
+
+  <div class="chart">
+    <h4>Where the coverage comes from</h4>
+    <div class="cap">21 items retrieved and read, 8 to 9 September 2026.</div>
+    <div class="donutwrap">
+      <svg class="donut" width="150" height="150" viewBox="0 0 150 150">
+        <circle cx="75" cy="75" r="54" fill="none" class="dtrack" stroke-width="22"/>
+        <circle class="dseg" cx="75" cy="75" r="54" fill="none" data-c="bad" stroke-width="22" stroke-dasharray="339.29" stroke-dashoffset="339.29" data-len="96.9" data-rot="-90" transform="rotate(-90 75 75)"/>
+        <circle class="dseg" cx="75" cy="75" r="54" fill="none" data-c="warn" stroke-width="22" stroke-dasharray="339.29" stroke-dashoffset="339.29" data-len="129.3" transform="rotate(12.9 75 75)"/>
+        <circle class="dseg" cx="75" cy="75" r="54" fill="none" data-c="neu" stroke-width="22" stroke-dasharray="339.29" stroke-dashoffset="339.29" data-len="113.1" transform="rotate(150 75 75)"/>
+        <text x="75" y="70" text-anchor="middle" font-family="Newsreader,serif" font-size="27" class="dnum">21</text>
+        <text x="75" y="87" text-anchor="middle" font-family="IBM Plex Mono,monospace" font-size="8" letter-spacing="1" class="dlab">ITEMS</text>
+      </svg>
+      <div class="dlist">
+        <div class="di"><i class="sw-bad"></i>Original reporting<b>6</b></div>
+        <div class="di"><i class="sw-warn"></i>Wire republication<b>8</b></div>
+        <div class="di"><i class="sw-neu"></i>Derivative / explainer<b>7</b></div>
+      </div>
+    </div>
+    <p class="note">AFP accounts for most French-language text and much of the international text. Reuters supplied the works-council interview. franceinfo obtained the internal staff letter. <a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">CNN</a>, <a class="cite" href="https://www.bloomberg.com/news/articles/2026-09-08/hindu-group-apologizes-after-eiffel-tower-visit-sparks-strike" target="_blank" rel="noopener">Bloomberg</a> and Le Parisien reported independently. Ten outlets repeating one AFP paragraph is one source, not ten.</p>
+  </div>
+
+  <div class="chart">
+    <h4>Coverage completeness by outlet</h4>
+    <div class="cap">Score out of 5: does the item carry the BAPS response, the SETE response, the union voice, legal context, and religious context? Partial coverage scores half. This measures thoroughness, not whether an outlet's conclusion favours BAPS.</div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">AFP</a></span><span class="r">4.5 / 5</span></div><div class="trk"><div class="fil c-bl" data-w="90"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a></span><span class="r">4.0</span></div><div class="trk"><div class="fil c-bl" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.aljazeera.com/news/2026/9/8/what-is-baps-the-hindu-group-whose-demands-led-to-eiffel-tower-closure" target="_blank" rel="noopener">Al Jazeera</a></span><span class="r">4.0</span></div><div class="trk"><div class="fil c-bl" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Public Sénat</a></span><span class="r">4.0</span></div><div class="trk"><div class="fil c-bl" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.ibtimes.co.uk/why-did-eiffel-tower-shut-down-baps-hindu-delegation-visit-female-staff-row-explained-1818431" target="_blank" rel="noopener">IBTimes UK</a></span><span class="r">4.0</span></div><div class="trk"><div class="fil c-bl" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">OpIndia</a></span><span class="r">4.0</span></div><div class="trk"><div class="fil c-bl" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">France 24</a></span><span class="r">3.5</span></div><div class="trk"><div class="fil c-bl" data-w="70"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.thenewsminute.com/news/baps-and-its-celibate-monks-the-organisation-at-the-centre-of-the-eiffel-tower-row" target="_blank" rel="noopener">The News Minute</a></span><span class="r">3.5</span></div><div class="trk"><div class="fil c-bl" data-w="70"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">Reuters</a></span><span class="r">3.0</span></div><div class="trk"><div class="fil c-neu" data-w="60"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">CNN</a></span><span class="r">3.0</span></div><div class="trk"><div class="fil c-neu" data-w="60"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.lapresse.ca/international/europe/2026-09-08/mise-a-l-ecart-des-femmes-employees/la-tour-eiffel-rouvre-apres-la-visite-controversee-d-un-groupe-religieux.php" target="_blank" rel="noopener">Le Parisien</a></span><span class="r">3.0</span></div><div class="trk"><div class="fil c-neu" data-w="60"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">Europe 1</a></span><span class="r">3.0</span></div><div class="trk"><div class="fil c-neu" data-w="60"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">CBS News</a></span><span class="r">2.5</span></div><div class="trk"><div class="fil c-warn" data-w="50"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.newsgram.com/amp/story/france/2026/09/08/eiffel-tower-staff-protest-baps-female-employees-sidelined" target="_blank" rel="noopener">Newsgram</a></span><span class="r">2.5</span></div><div class="trk"><div class="fil c-warn" data-w="50"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://www.bloomberg.com/news/articles/2026-09-08/hindu-group-apologizes-after-eiffel-tower-visit-sparks-strike" target="_blank" rel="noopener">Bloomberg</a></span><span class="r">2.0</span></div><div class="trk"><div class="fil c-warn" data-w="40"></div></div></div>
+    <div class="hbar"><div class="l"><span><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">Organiser</a></span><span class="r">2.0</span></div><div class="trk"><div class="fil c-warn" data-w="40"></div></div></div>
+  </div>
+
+  <div class="chart">
+    <h4>Indian and Indian-language coverage</h4>
+    <div class="cap">Added 11 September. Language is shown because the same masthead has taken different positions in different languages, which is the most interesting finding in this section.</div>
+    <div class="tw" style="border:none">
+      <table>
+        <thead><tr><th>Outlet</th><th>Origin</th><th>Language</th><th>Position</th><th>Note</th></tr></thead>
+        <tbody>
+          <tr><td><a class="cite" href="https://www.outlookindia.com/international/eiffel-tower-row-over-baps-visit-private-matter-between-entities-says-mea" target="_blank" rel="noopener">Outlook India</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-neut">Neutral, explanatory</span></td><td>Carried the MEA statement and a separate explainer on BAPS practices. Even-handed.</td></tr>
+          <tr><td><a class="cite" href="https://www.theweek.in/news/india/2026/09/08/baps-eiffel-tower-controversy-india-distances-itself-from-the-row-mea-says-matter-between-entities-concerned.html" target="_blank" rel="noopener">The Week</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-neut">Neutral</span></td><td>Led on the government distancing rather than on the incident.</td></tr>
+          <tr><td><a class="cite" href="https://www.nationalheraldindia.com/international/the-eiffel-tower-fallout-increase-in-racism-and-anti-immigrant-sentiment-feared" target="_blank" rel="noopener">National Herald</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-crit">Critical of handling</span></td><td>Focuses on the racism fallout and argues the MEA response came too late.</td></tr>
+          <tr><td><a class="cite" href="https://www.newslaundry.com/2026/09/08/baps-and-its-celibate-monks-the-organisation-at-the-centre-of-the-eiffel-tower-row" target="_blank" rel="noopener">Newslaundry</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-crit">Critical, analytical</span></td><td>Centres the BAPS relationship with Indian political leadership.</td></tr>
+          <tr><td><a class="cite" href="https://www.thenewsminute.com/news/baps-and-its-celibate-monks-the-organisation-at-the-centre-of-the-eiffel-tower-row" target="_blank" rel="noopener">The News Minute</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-crit">Critical, doctrinal</span></td><td>Own research into the vows rather than recycled wire copy.</td></tr>
+          <tr><td><a class="cite" href="https://www.brut.media/in/articles/eiffel-tower-shut-after-baps-visit-what-happened-to-trigger-a-women-staff-protest" target="_blank" rel="noopener">Brut India</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-neut">Neutral, structured</span></td><td>Clean what-happened explainer. Carefully separates personal from official Indian comment.</td></tr>
+          <tr><td><a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">OpIndia</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-supp">Sympathetic</span></td><td>Frames the arrangement as a request rather than an exclusion.</td></tr>
+          <tr><td><b><a class="cite" href="https://gujarati.opindia.com/opinion/baps-paris-eiffel-tower-controversy-and-why-the-sect-is-wrong-when-it-shifts-the-burden-of-rules-on-society/" target="_blank" rel="noopener">OpIndia Gujarati</a></b></td><td><span class="fl fl-in"><i></i>IND</span></td><td>Gujarati</td><td><span class="stance st-crit">Critical</span></td><td><b>The finding of this section.</b> Argues the sect may set rules for its sadhus but must not shift the burden onto society. Same masthead, opposite position to its English edition.</td></tr>
+          <tr><td><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">Organiser</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>English</td><td><span class="stance st-supp">Strongly sympathetic</span></td><td>Leads on the BAPS denial.</td></tr>
+          <tr><td><a class="cite" href="https://www.garavigujarat.biz/baps-saints-at-eiffel-tower" target="_blank" rel="noopener">Garavi Gujarat</a></td><td><span class="fl fl-uk"><i></i>UK</span></td><td>Gujarati</td><td><span class="stance st-neut">Neutral, community</span></td><td>Diaspora paper. Reported the BAPS position that the request was logistical, not gender-based.</td></tr>
+          <tr><td><a class="cite" href="https://www.newscontinuous.com/international/controversy-after-baps-event-in-paris-female-staff-removed-protests-erupt-leading-to-eiffel-tower-closure/" target="_blank" rel="noopener">News Continuous</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>Gujarati</td><td><span class="stance st-crit">Critical framing</span></td><td>States that discrimination on religious grounds is unlawful in France under public-event and commercial rules.</td></tr>
+          <tr><td><a class="cite" href="https://www.newsjungal.com/2026/09/baps.html" target="_blank" rel="noopener">News Jungal</a> / <a class="cite" href="https://4pm.co.in/%E0%A4%AE%E0%A4%B9%E0%A4%BF%E0%A4%B2%E0%A4%BE-%E0%A4%95%E0%A4%B0%E0%A5%8D%E0%A4%AE%E0%A4%9A%E0%A4%BE%E0%A4%B0%E0%A4%BF%E0%A4%AF%E0%A5%8B%E0%A4%82-%E0%A4%95%E0%A5%8B-%E0%A4%B2%E0%A5%87%E0%A4%95/189554" target="_blank" rel="noopener">4PM News</a></td><td><span class="fl fl-in"><i></i>IND</span></td><td>Hindi</td><td><span class="stance st-neut">Explainer</span></td><td>Straight what-happened coverage. Hindi pickup has been lighter than Gujarati.</td></tr>
+          <tr><td><a class="cite" href="https://lepetitjournal.com/expat-mag/societe/le-baps-un-mouvement-hindou-conservateur-et-nationaliste-452880" target="_blank" rel="noopener">Le Petit Journal</a></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td>French</td><td><span class="stance st-crit">Critical, contextual</span></td><td>Describes BAPS as a conservative, nationalist movement and quotes Indian Alliance Paris at length.</td></tr>
+          <tr><td><a class="cite" href="https://www.france24.com/en/france/20260909-eiffel-tower-row-over-hindu-sect-baps-unites-french-politicians-%E2%80%93-but-divides-indian-diaspora" target="_blank" rel="noopener">France 24</a> (diaspora piece)</td><td><span class="fl fl-fr"><i></i>FRA</span></td><td>English</td><td><span class="stance st-crit">Critical, investigative</span></td><td>The most consequential piece published since 9 September.</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="note">Why the Gujarati split matters more than it looks. A sympathetic English piece and a critical Gujarati piece from the same publisher suggests the criticism is landing inside the community that knows the practice best, not only outside it. That is a harder signal to dismiss than any French headline.</p>
+  </div>
+
+  
+
+  <div class="chart">
+    <h4>Headline wording shifts the blame</h4>
+    <div class="cap">Same facts, different attribution. This is how BAPS became the protagonist of a story in which SETE made the operational decision.</div>
+    <div class="hbar"><div class="l"><span>"Hindu group whose demands led to closure"</span><span class="r">Most damaging</span></div><div class="trk"><div class="fil c-bad" data-w="95"></div></div></div>
+    <div class="hbar"><div class="l"><span>"Religious delegation caused women to be sidelined"</span><span class="r">High</span></div><div class="trk"><div class="fil c-bad" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span>"Female staff removed for Hindu group's visit"</span><span class="r">Moderate</span></div><div class="trk"><div class="fil c-warn" data-w="58"></div></div></div>
+    <div class="hbar"><div class="l"><span>"Hindu group apologises after visit sparks strike"</span><span class="r">Lower</span></div><div class="trk"><div class="fil c-neu" data-w="40"></div></div></div>
+    <div class="hbar"><div class="l"><span>"Tower closed after strike over sidelining of women"</span><span class="r">Low</span></div><div class="trk"><div class="fil c-neu" data-w="26"></div></div></div>
+    <div class="hbar"><div class="l"><span>"Operator admits conditions should not have been accepted"</span><span class="r">Favourable</span></div><div class="trk"><div class="fil c-ok" data-w="12"></div></div></div>
+    <p class="note">The framings most favourable to BAPS put SETE at the centre. BAPS cannot push those itself without appearing to shift blame onto the party that already apologised. That is a constraint, not a messaging problem.</p>
+  </div>
+
+  <h3 style="font-size:17px;margin:26px 0 10px">Narrative evolution</h3>
+  <div class="flow">
+    <div class="fstep"><div class="fd">3–5 Sep</div><div class="ff">Cultural milestone</div></div>
+    <div class="fstep"><div class="fd">5–6 Sep</div><div class="ff">Internal grievance</div></div>
+    <div class="fstep"><div class="fd">7 Sep AM</div><div class="ff">Labour dispute</div></div>
+    <div class="fstep pivot"><div class="fd">7 Sep PM · Pivot</div><div class="ff">Gender discrimination. SETE confirms</div></div>
+    <div class="fstep"><div class="fd">7 Sep eve</div><div class="ff">Religion vs republican values</div></div>
+    <div class="fstep"><div class="fd">8 Sep</div><div class="ff">Accountability. Who approved?</div></div>
+    <div class="fstep"><div class="fd">8–9 Sep</div><div class="ff">Explainers. What is BAPS?</div></div>
+  </div>
+  <p class="note">The frame locked within hours of SETE's confirmation, before BAPS responded. BAPS entered a narrative that was already fixed.</p>
+</section>
+
+<!-- 07 -->
+<section id="s7">
+  <div class="eyebrow">08 · Sentiment &amp; Stakeholders</div>
+  <h2 class="sec">Coded positions, with the source count visible</h2>
+  <p class="lede">No polling exists for a four-day-old story. These are coded counts of identified positions, not measurements of public opinion.</p>
+
+  <div class="grid g2">
+    <div class="cell">
+      <div class="chart" style="border:none;padding:0;margin:0">
+        <h4 style="font-size:15px">France · 11 sources</h4>
+        <div class="cap">Outlets, officials, union bodies</div>
+        <div class="hbar"><div class="l"><span>Critical of SETE</span><span class="r">8</span></div><div class="trk"><div class="fil c-warn" data-w="95"></div></div></div>
+        <div class="hbar"><div class="l"><span>Critical of BAPS</span><span class="r">6</span></div><div class="trk"><div class="fil c-bad" data-w="72"></div></div></div>
+        <div class="hbar"><div class="l"><span>Neutral, fact-seeking</span><span class="r">4</span></div><div class="trk"><div class="fil c-neu" data-w="48"></div></div></div>
+        <div class="hbar"><div class="l"><span>Pro-BAPS</span><span class="r">0</span></div><div class="trk"><div class="fil c-sf" data-w="1.5"></div></div></div>
+      </div>
+    </div>
+    <div class="cell">
+      <div class="chart" style="border:none;padding:0;margin:0">
+        <h4 style="font-size:15px">India · 5 sources</h4>
+        <div class="cap">Mainstream and aligned outlets</div>
+        <div class="hbar"><div class="l"><span>Sympathetic to BAPS</span><span class="r">2</span></div><div class="trk"><div class="fil c-sf" data-w="55"></div></div></div>
+        <div class="hbar"><div class="l"><span>Neutral, fact-seeking</span><span class="r">2</span></div><div class="trk"><div class="fil c-neu" data-w="55"></div></div></div>
+        <div class="hbar"><div class="l"><span>Critical, analytical</span><span class="r">1</span></div><div class="trk"><div class="fil c-bad" data-w="28"></div></div></div>
+        <div class="hbar"><div class="l"><span>Strongly critical</span><span class="r">0</span></div><div class="trk"><div class="fil c-bad" data-w="1.5"></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chart">
+    <h4>What is actually being criticised</h4>
+    <div class="cap">The target differs sharply by geography. The same statement will not work in both markets.</div>
+    <div class="hbar"><div class="l"><span>France · the decision to accept (SETE)</span><span class="r">Dominant</span></div><div class="trk"><div class="fil c-bl" data-w="92"></div></div></div>
+    <div class="hbar"><div class="l"><span>France · the making of the request (BAPS)</span><span class="r">Strong</span></div><div class="trk"><div class="fil c-bad" data-w="78"></div></div></div>
+    <div class="hbar"><div class="l"><span>France · religion vs republican values</span><span class="r">Growing</span></div><div class="trk"><div class="fil c-warn" data-w="62"></div></div></div>
+    <div class="hbar"><div class="l"><span>International · gender equality frame</span><span class="r">Dominant</span></div><div class="trk"><div class="fil c-bad" data-w="84"></div></div></div>
+    <div class="hbar"><div class="l"><span>India · defence against Western misreading</span><span class="r">Present</span></div><div class="trk"><div class="fil c-sf" data-w="45"></div></div></div>
+    <div class="hbar"><div class="l"><span>Anywhere · criticism of Hinduism as such</span><span class="r">Marginal</span></div><div class="trk"><div class="fil c-neu" data-w="10"></div></div></div>
+    <p class="note">The reviewed coverage does not attack Hinduism. It attacks a specific arrangement. Framing a response as a defence of Hinduism against prejudice would misread the criticism and invite the reaction that has so far stayed marginal.</p>
+  </div>
+
+  <h3 style="font-size:17px;margin:26px 0 10px">Stakeholder posture</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th style="width:27%">Stakeholder</th><th style="width:23%">Current posture</th><th>What drives it</th></tr></thead>
+      <tbody><tr><td><b>Eiffel Tower staff &amp; CGT</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Opposition</td><td>Direct experience. Now negotiating a written framework for VIP delegations.</td></tr><tr><td><b>Works council (CSE)</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Opposition</td><td>Institutional duty. Wants guarantees, not apologies.</td></tr><tr><td><b>City of Paris</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Opposition</td><td>Owner of the monument. Two investigations running.</td></tr><tr><td><b>French government</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Opposition</td><td>Equality minister engaged, but used conditional language: &ldquo;if confirmed&rdquo;.</td></tr><tr><td><b>&Icirc;le-de-France region</b></td><td class="tight"><span class="pd p-con" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Concern, exposed</td><td>P&eacute;cresse enabled the temple and attended festivities. She now needs distance.</td></tr><tr><td><b>French far right</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Instrumentalising</td><td>Fits an existing religion-and-Republic campaign frame. Do not engage.</td></tr><tr><td><b>French public</b></td><td class="tight"><span class="pd p-unk" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Unknown</td><td>No polling exists. Political consensus suggests low tolerance.</td></tr><tr><td><b>BAPS devotees, global</b></td><td class="tight"><span class="pd p-sup" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Support</td><td>Reading the incident as a misunderstanding of religious practice.</td></tr><tr><td><b>Indian diaspora, non-aligned</b></td><td class="tight"><span class="pd p-con" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Split</td><td>Criticism of BAPS conservatism predates this incident.</td></tr><tr><td><b>Hindu orgs &amp; aligned Indian media</b></td><td class="tight"><span class="pd p-sup" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Support</td><td>Framing it as a Western misreading. Amplifying them raises the French temperature.</td></tr><tr><td><b>Indian government</b></td><td class="tight"><span class="pd p-neu" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Neutral, distancing</td><td>MEA called it a matter between the entities concerned. A deliberate step back.</td></tr><tr><td><b>Academic commentators</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Opposition</td><td>Jaffrelot made the same characterisation before the incident.</td></tr><tr><td><b>Women&rsquo;s rights advocates</b></td><td class="tight"><span class="pd p-opp" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Opposition</td><td>Clear-cut case on their own terms.</td></tr><tr><td><b>Bussy-Saint-Georges council</b></td><td class="tight"><span class="pd p-unk" style="width:11px;height:11px;vertical-align:-1px;margin-right:8px"></span>Unknown</td><td>Not identified in any reviewed reporting. Worth checking directly.</td></tr></tbody>
+    </table>
+  </div>
+  <div class="legend tidy"><span><i class="p-sup"></i>Support</span><span><i class="p-con"></i>Concern</span><span><i class="p-opp"></i>Opposition</span><span><i class="p-neu"></i>Neutral</span><span><i class="p-unk"></i>Unknown</span></div>
+  <p class="note">BAPS currently has no supportive constituency inside France.</p>
+</section>
+
+
+
+
+<!-- 09 VOICES -->
+<section id="sv">
+  <div class="eyebrow">09 &middot; Voices &amp; Stances</div>
+  <h2 class="sec">Who is saying what, and where they sit</h2>
+  <p class="lede">Twenty-five named voices across four countries, mapped by stance with the source for each. The purpose is to read the sentiment, not to label people. Every stance below is what the person said publicly, linked.</p>
+
+  <div class="chart">
+    <h4>Distribution of named public stances</h4>
+    <div class="cap">Coded from the 25 entries below. Not a poll. A map of who has spoken and how.</div>
+    <div class="smeter" id="stancemeter">
+      <div style="background:var(--bad)" data-w="60">15 CRITICAL</div>
+      <div style="background:var(--warn)" data-w="8">2 MIXED</div>
+      <div style="background:var(--blue)" data-w="8">2 DISTANCING</div>
+      <div style="background:var(--ok)" data-w="24">6 SUPPORTIVE</div>
+    </div>
+    <div class="legend">
+      <span><i style="background:var(--bad)"></i>Critical of the arrangement</span>
+      <span><i style="background:var(--warn)"></i>Mixed</span>
+      <span><i style="background:var(--blue)"></i>Distancing or conceding</span>
+      <span><i style="background:var(--ok)"></i>Defending or supportive</span>
+    </div>
+    <p class="note">Read this carefully. Almost every supportive voice is inside the BAPS community. Almost every critical voice is outside it. That is the shape of the problem, not a measure of who is right.</p>
+  </div>
+
+  <div class="tw">
+    <table>
+      <thead><tr><th>Who</th><th>Country</th><th>Stance</th><th>What they said</th><th>Why it matters</th><th>Source</th></tr></thead>
+      <tbody><tr><td><b>Emmanuel Gr&eacute;goire</b><br><span style='font-size:11px;color:var(--muted)'>Mayor of Paris</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Critical</span></td><td>Called the arrangement absurd, iniquitous and unacceptable, and de facto discrimination. Ordered two investigations.</td><td>Owns the monument. His inquiry is the next news event.</td><td><a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Public S&eacute;nat</a></td></tr><tr><td><b>Aurore Berg&eacute;</b><br><span style='font-size:11px;color:var(--muted)'>Minister for Equality</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Critical</span></td><td>Said the facts are unacceptable if confirmed, and that no dogma sits above the laws of the Republic.</td><td>Note the conditional. That is an opening, not a verdict.</td><td><a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">AFP via Orange</a></td></tr><tr><td><b>Ya&euml;l Braun-Pivet</b><br><span style='font-size:11px;color:var(--muted)'>President, National Assembly</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Critical</span></td><td>Said women should not be required to step aside to accommodate the demands of foreign visitors.</td><td>New since 9 Sep. Raises the institutional level of the criticism.</td><td><a class="cite" href="https://www.theweek.in/news/india/2026/09/08/baps-eiffel-tower-controversy-india-distances-itself-from-the-row-mea-says-matter-between-entities-concerned.html" target="_blank" rel="noopener">The Week</a></td></tr><tr><td><b>Val&eacute;rie P&eacute;cresse</b><br><span style='font-size:11px;color:var(--muted)'>President, &Icirc;le-de-France</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Critical, exposed</span></td><td>Said she personally told BAPS representatives such practices are contrary to French law. She had attended BAPS festivities days earlier.</td><td>She needs distance. She also has an incentive for this to end quickly.</td><td><a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">AFP via Orange</a></td></tr><tr><td><b>Marine Le Pen</b><br><span style='font-size:11px;color:var(--muted)'>RN, 2027 presidential candidate</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Instrumentalising</span></td><td>Said France will never accept the presence of women being limited.</td><td>Do not engage. Any BAPS response to her feeds the frame.</td><td><a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">AFP via Orange</a></td></tr><tr><td><b>Ariel Weil</b><br><span style='font-size:11px;color:var(--muted)'>President, SETE</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-dist'>Critical of own org</span></td><td>Restated the tower&rsquo;s commitment to republican values and equality. SETE said the conditions should not have been accepted.</td><td>The counterparty conceded. Strongest evidence in the whole file.</td><td><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">SETE via France 24</a></td></tr><tr><td><b>Diane Davoine</b><br><span style='font-size:11px;color:var(--muted)'>Secretary, Eiffel Tower works council</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Complainant</span></td><td>Said women were asked to leave their posts so men could be placed there, and that staff felt humiliated.</td><td>The originating account. Quoted in almost all global coverage.</td><td><a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">Reuters via CBS</a></td></tr><tr><td><b>Denis Vavassori</b><br><span style='font-size:11px;color:var(--muted)'>Secretary General, CGT at the monument</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Complainant</span></td><td>Led the strike communication. Negotiating a written framework for VIP delegations.</td><td>His framework talks are where the lasting change happens.</td><td><a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">franceinfo</a></td></tr><tr><td><b>Christophe Jaffrelot</b><br><span style='font-size:11px;color:var(--muted)'>Political scientist, Sciences Po</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Critical, academic</span></td><td>Characterised BAPS as socially conservative and exclusive toward women around its priests. Said before the incident.</td><td>Predates the row, which is why journalists find it credible.</td><td><a class="cite" href="https://www.sudradio.fr/societe/pres-de-paris-linauguration-dun-temple-comme-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">AFP via Sud Radio</a></td></tr><tr><td><b>Randhir Jaiswal</b><br><span style='font-size:11px;color:var(--muted)'>Spokesperson, Indian MEA</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-dist'>Distancing</span></td><td>&ldquo;This is a matter purely between the entities concerned.&rdquo; Called Modi&rsquo;s video address common practice with no cause for comment.</td><td>The most consequential shift since 9 Sep. New Delhi has stepped back.</td><td><a class="cite" href="https://www.theweek.in/news/india/2026/09/08/baps-eiffel-tower-controversy-india-distances-itself-from-the-row-mea-says-matter-between-entities-concerned.html" target="_blank" rel="noopener">The Week</a></td></tr><tr><td><b>Narendra Modi</b><br><span style='font-size:11px;color:var(--muted)'>Prime Minister of India</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-neut'>No comment on the row</span></td><td>Addressed the temple consecration by video on 6 Sep, calling it a milestone in India-France relations. Has said nothing about the tower.</td><td>Do not treat the temple remarks as a comment on the incident.</td><td><a class="cite" href="https://www.outlookindia.com/international/eiffel-tower-baps-row-what-is-baps-and-why-are-its-practices-under-scrutiny" target="_blank" rel="noopener">Outlook India</a></td></tr><tr><td><b>Priyanka Chaturvedi</b><br><span style='font-size:11px;color:var(--muted)'>MP, Shiv Sena (UBT)</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-crit'>Critical</span></td><td>Criticised the reported treatment of the staff and said it does not represent how India thinks about equality.</td><td>Personal, not governmental. A mainstream Indian critical voice.</td><td><a class="cite" href="https://www.brut.media/in/articles/eiffel-tower-shut-after-baps-visit-what-happened-to-trigger-a-women-staff-protest" target="_blank" rel="noopener">Brut India</a></td></tr><tr><td><b>Anish Gawande</b><br><span style='font-size:11px;color:var(--muted)'>Indian opposition spokesperson</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-crit'>Strongly critical</span></td><td>Questioned the propriety of the PM&rsquo;s address and raised BAPS funding, land allocation and the New Jersey labour case. Post drew over 220,000 likes.</td><td>Highest-reach single critical post found. Several of its factual claims are contested in its own comments.</td><td><a class="cite" href="https://www.instagram.com/p/DdCAeGRIf6Z/" target="_blank" rel="noopener">Instagram post</a></td></tr><tr><td><b>Indian Alliance Paris</b><br><span style='font-size:11px;color:var(--muted)'>Diaspora organisation, France</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Strongly critical</span></td><td>Says BAPS is a retrograde sect linked to the Indian far right that does not represent Hinduism or India. Also warned the affair must not become a pretext for racism.</td><td>Held a press briefing on BAPS the same day as the tower visit. Both halves of their statement matter.</td><td><a class="cite" href="https://www.newsy-today.com/eiffel-tower-baps-row-unites-french-politicians-divides-indian-diaspora/" target="_blank" rel="noopener">IAP via France 24 reporting</a></td></tr><tr><td><b>Joy Banerjee</b><br><span style='font-size:11px;color:var(--muted)'>Secretary, Indian Alliance Paris</span></td><td><span class="fl fl-fr"><i></i>FRA</span></td><td><span class='stance st-crit'>Strongly critical</span></td><td>&ldquo;We tried to tell them that these people are very conservative and they are very misogynistic... Suddenly, the mask was dropped on Monday because of the strike.&rdquo;</td><td>Indicates a prepared critical frame was already with French media.</td><td><a class="cite" href="https://www.france24.com/en/france/20260909-eiffel-tower-row-over-hindu-sect-baps-unites-french-politicians-%E2%80%93-but-divides-indian-diaspora" target="_blank" rel="noopener">France 24</a></td></tr><tr><td><b>Sunita Viswanath</b><br><span style='font-size:11px;color:var(--muted)'>Co-founder, Hindus for Human Rights</span></td><td><span class="fl fl-us"><i></i>USA</span></td><td><span class='stance st-crit'>Critical</span></td><td>Said she was dismayed French authorities had not examined the sect&rsquo;s record before approving the project.</td><td>Frames the critique as Hindu-led, which makes anti-Hindu counter-claims harder.</td><td><a class="cite" href="https://www.newsy-today.com/eiffel-tower-baps-row-unites-french-politicians-divides-indian-diaspora/" target="_blank" rel="noopener">via France 24 reporting</a></td></tr><tr><td><b>Rashmi Samant</b><br><span style='font-size:11px;color:var(--muted)'>Writer and commentator</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-mixed'>Mixed, most credible</span></td><td>Began indignant at the practice, changed her view through lived experience, but argues that abroad &ldquo;the host society encounters the action, not the internal reasoning behind it&rdquo;.</td><td>The only widely shared account that criticises and defends in the same piece. Share whole or not at all.</td><td><a class="cite" href="https://x.com/RashmiDVS" target="_blank" rel="noopener">X thread</a></td></tr><tr><td><b>BAPS Paris</b><br><span style='font-size:11px;color:var(--muted)'>The organisation</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-supp'>Defending</span></td><td>Apologised for any hurt, said the arrangement was logistical and never rooted in gender, and that to its knowledge no one was denied access.</td><td>The gender denial is contradicted by SETE. The access line answers a question nobody asked.</td><td><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">BAPS statement</a></td></tr><tr><td><b>Women of BAPS, ~20 creators</b><br><span style='font-size:11px;color:var(--muted)'>Community members, first person</span></td><td><span class="fl fl-gl"><i></i>GLOBAL</span></td><td><span class='stance st-supp'>Supportive</span></td><td>Dozens of first-person posts since 8 Sep. Highest reach passed 4,900 likes. The strongest keep to lived experience rather than argument.</td><td>Most credible asset BAPS has. Weakest when it slides into absolute claims.</td><td><a class="cite" href="https://www.instagram.com/p/DdCvOiODOIE/" target="_blank" rel="noopener">Example post</a></td></tr><tr><td><b>Mahua Moitra</b><br><span style='font-size:11px;color:var(--muted)'>MP, Trinamool Congress</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-crit'>Strongly critical</span></td><td>Two posts on 9 Sep. Told BAPS to buy the guru a plastic replica rather than visit a public monument, and said this is not libert&eacute; or &eacute;galit&eacute;. Separately told BAPS to stay inside its own temple and not embarrass India.</td><td>Around 93,000 views and 370 reposts on the first post. The sharpest-worded Indian political voice, and she tagged the French embassy.</td><td><a class="cite" href="https://x.com/MahuaMoitra/status/2097525236799516674" target="_blank" rel="noopener">X, 9 Sep</a></td></tr><tr><td><b>Jay Thadeshwar</b><br><span style='font-size:11px;color:var(--muted)'>Content creator, not a BAPS member</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-supp'>Strongly supportive</span></td><td>Says many conclusions were drawn without research. States BAPS made no gender-specific request, and that it asked only to take the earliest lift up and down given the delegation&rsquo;s size. Argues the organisation&rsquo;s decades of work deserve equal attention.</td><td><b>Highest-reach single post on either side: about 70,000 likes and 7,800 shares.</b> The lift detail is new and appears nowhere in BAPS&rsquo;s own statements. Treat as unverified. His framing as a non-member is his strongest asset.</td><td><a class="cite" href="https://www.instagram.com/reel/DdGgfIhh-Nd/" target="_blank" rel="noopener">Instagram reel</a></td></tr><tr><td><b>Naomi Canton</b><br><span style='font-size:11px;color:var(--muted)'>Journalist, UK correspondent</span></td><td><span class="fl fl-uk"><i></i>UK</span></td><td><span class='stance st-supp'>Supportive clarification</span></td><td>Posted that BAPS explicitly confirmed the delegation never asked for women to be excluded from the workforce, removed from duties, hidden from view or replaced by male staff.</td><td>A verified journalist carrying the denial gives it more weight than a community post. Still a restatement of BAPS&rsquo;s position, not independent confirmation.</td><td><a class="cite" href="https://x.com/naomi2009/status/2097718020638445616" target="_blank" rel="noopener">X, 9 Sep</a></td></tr><tr><td><b>Priya Gupta</b><br><span style='font-size:11px;color:var(--muted)'>Commentator</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-crit'>Critical</span></td><td>Asked BAPS a numbered list of questions, beginning with why the swami needed to visit the Eiffel Tower at all and why he was photographed before it.</td><td>Represents the most common critical line among Indian users: not the vow, but the choice to be there. This is the argument the community is least prepared for.</td><td><a class="cite" href="https://x.com/priyagupta999/status/2097654069955551628" target="_blank" rel="noopener">X, 9 Sep</a></td></tr><tr><td><b>Bhavik Patel</b><br><span style='font-size:11px;color:var(--muted)'>Community commentator</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-supp'>Supportive</span></td><td>Framed the sadhus&rsquo; saffron as sustained by a mother&rsquo;s prayer, in Gujarat and at the Eiffel Tower alike, and noted Hindu mothers willingly consecrated their sons to service.</td><td>Emotionally effective inside the community, unlikely to travel outside it. Does not engage the workplace question.</td><td><a class="cite" href="https://x.com/BhavikPrit/status/2097690231365681466" target="_blank" rel="noopener">X, 9 Sep</a></td></tr><tr><td><b>Sanitary Panels</b><br><span style='font-size:11px;color:var(--muted)'>Illustrator, large following</span></td><td><span class="fl fl-in"><i></i>IND</span></td><td><span class='stance st-crit'>Critical</span></td><td>Covered the incident for a mainstream young Indian audience that does not usually follow religious-institution news.</td><td>Matters for reach into under-30s, which the risk heatmap already flags as a high-exposure group.</td><td><a class="cite" href="https://x.com/sanitarypanels/status/2098330197431063018" target="_blank" rel="noopener">X, 11 Sep</a></td></tr></tbody>
+    </table>
+  </div>
+  <p class="note">Absent from this table on purpose: French figures who have said nothing, and Indian government figures beyond the MEA spokesperson. Silence is not a stance and should not be recorded as one.</p>
+</section>
+
+<!-- 10 DIASPORA -->
+<section id="sd">
+  <div class="eyebrow">10 &middot; Diaspora &amp; Backlash</div>
+  <h2 class="sec">The story has stopped being about one morning</h2>
+  <p class="lede">Since 9 September the controversy has widened along three tracks that have little to do with the Eiffel Tower. Each carries a different risk, and two of them are risks to Indians in France generally, not to BAPS alone.</p>
+
+  <div class="grid g3">
+    <div class="cell"><div class="lbl">Track 1</div><div class="big" style="font-size:18px">Diaspora split</div><div class="desc">Indian groups in France are publicly divided. One side calls BAPS unrepresentative of Hinduism. The other is producing first-person defences at volume.</div></div>
+    <div class="cell"><div class="lbl">Track 2</div><div class="big" style="font-size:18px;color:var(--bad)">Racism risk</div><div class="desc">The French far right has taken up the story. Indian organisations that criticise BAPS have simultaneously warned the affair must not become a pretext for racism.</div></div>
+    <div class="cell"><div class="lbl">Track 3</div><div class="big" style="font-size:18px">Record revisited</div><div class="desc">Coverage has moved to the New Jersey labour case and to claims about how the Paris land was allocated. Older material, new audience.</div></div>
+  </div>
+
+  <details open>
+    <summary>Track 1 &middot; The diaspora is publicly split, and both sides are loud</summary>
+    <div class="db">
+      <p><a class="cite" href="https://www.france24.com/en/france/20260909-eiffel-tower-row-over-hindu-sect-baps-unites-french-politicians-%E2%80%93-but-divides-indian-diaspora" target="_blank" rel="noopener">France 24 framed it directly</a>: the row unites French politicians but divides the Indian diaspora. On one side, Indian Alliance Paris and Hindus for Human Rights, both of which position their criticism as coming from within Hindu and Indian communities rather than outside them. On the other, a large and growing volume of first-person posts from BAPS women, several passing a thousand likes.</p>
+      <p><b>Why this is different from ordinary criticism.</b> A critique voiced by Hindu organisations cannot be answered with a claim of anti-Hindu prejudice. That response, which is available against a French union or a French politician, is not available here. Reaching for it anyway would be the single most damaging move BAPS could make this week.</p>
+      <p><b>What it means practically.</b> The community response is working on its own terms and should continue. It should not be pointed at the diaspora critics. A public argument between Indian groups in Paris is a better story than the original incident, and it would run longer.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Track 2 &middot; Racism and the far right, the risk nobody controls</summary>
+    <div class="db">
+      <p><a class="cite" href="https://www.nationalheraldindia.com/international/the-eiffel-tower-fallout-increase-in-racism-and-anti-immigrant-sentiment-feared" target="_blank" rel="noopener">National Herald reported</a> fears of increased racism and anti-immigrant sentiment following the affair. French far-right figures have alleged that land was allocated to BAPS under Indian government pressure, linking it to defence trade. <b>No evidence for that claim has been published, and this brief treats it as unsupported.</b></p>
+      <p>The important detail is that BAPS&rsquo;s sharpest diaspora critics issued the racism warning themselves. Indian Alliance Paris said the affair must not serve as a pretext for more racism in the same statement in which it called BAPS a retrograde sect. They are arguing against BAPS and for Indians in France at once.</p>
+      <p><b>Assessment.</b> This is the track where BAPS has least control and most to lose reputationally without having done anything further. It is also the track where a badly judged statement does the most harm, because anything that reads as Hindu grievance politics will be absorbed into the far-right frame rather than countering it.</p>
+    </div>
+  </details>
+
+  <details>
+    <summary>Track 3 &middot; The record is being revisited</summary>
+    <div class="db">
+      <p><a class="cite" href="https://www.france24.com/en/americas/20260910-how-a-former-baps-temple-worker-in-the-us-got-his-freedom-but-still-seeks-justice" target="_blank" rel="noopener">France 24 published a long feature on 10 September</a> following a former BAPS temple worker in the United States, reviving the Robbinsville allegations. The factual position, which the brief states plainly: the US federal investigation closed in 2025 without criminal charges, and the civil class action continues. Both halves belong in any account of it.</p>
+      <p><a class="cite" href="https://www.outlookindia.com/international/eiffel-tower-baps-row-what-is-baps-and-why-are-its-practices-under-scrutiny" target="_blank" rel="noopener">Outlook</a> and <a class="cite" href="https://www.newslaundry.com/2026/09/08/baps-and-its-celibate-monks-the-organisation-at-the-centre-of-the-eiffel-tower-row" target="_blank" rel="noopener">Newslaundry</a> have run explainer pieces connecting the Eiffel Tower incident to BAPS&rsquo;s wider record and its relationship with Indian political leadership.</p>
+      <p><b>Assessment.</b> This is the ordinary mechanics of a news cycle. It is also why the incident matters more than its size suggests: it functions as a key that opens older files for a new audience.</p>
+    </div>
+  </details>
+
+  <div class="chart" style="margin-top:18px">
+    <h4>Where the risk now sits, compared with 9 September</h4>
+    <div class="cap">Direction of travel over 48 hours, analyst assessment.</div>
+    <div class="hbar"><div class="l"><span>Original incident, narrow facts</span><span class="r">Cooling</span></div><div class="trk"><div class="fil c-neu" data-w="30"></div></div></div>
+    <div class="hbar"><div class="l"><span>Diaspora and community conflict</span><span class="r">Rising</span></div><div class="trk"><div class="fil c-warn" data-w="72"></div></div></div>
+    <div class="hbar"><div class="l"><span>Racism and far-right instrumentalisation</span><span class="r">Rising</span></div><div class="trk"><div class="fil c-bad" data-w="80"></div></div></div>
+    <div class="hbar"><div class="l"><span>Historical record, New Jersey and funding</span><span class="r">Rising</span></div><div class="trk"><div class="fil c-bad" data-w="66"></div></div></div>
+    <div class="hbar"><div class="l"><span>Indian government exposure</span><span class="r">Falling, deliberately</span></div><div class="trk"><div class="fil c-bl" data-w="24"></div></div></div>
+    <p class="note">The one line leadership should take from this section: the original allegation is cooling and everything attached to it is warming. Responding to the incident alone now addresses the smallest remaining part of the problem.</p>
+  </div>
+</section>
+
+
+<!-- 11 -->
+<section id="sw">
+  <div class="eyebrow">11 &middot; Language &amp; Sentiment</div>
+  <h2 class="sec">Two vocabularies that barely touch</h2>
+  <p class="lede">These terms recur across the posts, comments and articles reviewed for this brief. Size is frequency, in five bands. Colour is which side used it. The finding is not what either side says. It is that they are not using the same words at all.</p>
+  <div class="cloud"><span class="w2 w-s">context</span><span class="w5 w-s">full picture</span><span class="w5 w-c">embarrass India</span><span class="w5 w-c">sexist</span><span class="w4 w-c">laws of the Republic</span><span class="w5 w-n">coordination</span><span class="w4 w-c">public monument</span><span class="w5 w-c">labour case</span><span class="w4 w-n">delegation</span><span class="w3 w-s">maryada</span><span class="w2 w-n">request</span><span class="w4 w-n">management</span><span class="w4 w-s">celibacy</span><span class="w4 w-c">regressive</span><span class="w1 w-c">discrimination</span><span class="w2 w-s">discipline</span><span class="w1 w-s">brahmacharya</span><span class="w4 w-c">why visit at all</span><span class="w3 w-s">respect</span><span class="w2 w-n">SETE</span><span class="w5 w-n">framework</span><span class="w3 w-s">not discrimination</span><span class="w5 w-s">headline vs reality</span><span class="w5 w-c">far right</span><span class="w2 w-c">humiliated</span><span class="w4 w-s">misunderstanding</span><span class="w5 w-c">red carpet</span><span class="w4 w-s">empowerment</span><span class="w3 w-c">removed</span><span class="w4 w-s">monks</span><span class="w3 w-n">investigation</span><span class="w3 w-s">boundaries</span><span class="w3 w-c">workplace</span><span class="w2 w-c">sidelined</span><span class="w4 w-c">Hindutva</span><span class="w4 w-s">proud</span><span class="w3 w-n">strike</span><span class="w5 w-s">mother&rsquo;s prayer</span><span class="w2 w-s">vow</span><span class="w3 w-c">&eacute;galit&eacute;</span><span class="w5 w-s">service</span><span class="w3 w-c">misogynistic</span><span class="w2 w-c">invisible</span><span class="w3 w-n">apology</span><span class="w3 w-s">seva</span><span class="w4 w-c">double standard</span><span class="w1 w-s">lived experience</span></div>
+  <div class="legend tidy" style="margin-top:14px;grid-template-columns:repeat(3,auto)">
+    <span><i style="background:var(--bad)"></i>Critical vocabulary</span>
+    <span><i style="background:var(--ok)"></i>Supportive vocabulary</span>
+    <span><i style="background:var(--muted)"></i>Shared, process-neutral</span>
+  </div>
+  <div class="cloudcols">
+    <div><h5 style="color:var(--bad)">What the critical side talks about</h5>
+      <p>Almost every high-frequency critical term is about <b>effect on a third party</b>: discrimination, humiliated, sidelined, invisible, removed, workplace. The words describe what happened to someone.</p>
+      <p>A second cluster is about <b>place and propriety</b> rather than the vow: public monument, why visit at all, &eacute;galit&eacute;, laws of the Republic. This is the argument BAPS has least prepared for, and it is rising.</p></div>
+    <div><h5 style="color:var(--ok)">What the supportive side talks about</h5>
+      <p>Almost every high-frequency supportive term is about <b>internal meaning and intent</b>: brahmacharya, discipline, vow, context, lived experience, maryada. The words describe what something means.</p>
+      <p>Only two supportive terms engage the other side&rsquo;s frame at all, &ldquo;not discrimination&rdquo; and &ldquo;misunderstanding&rdquo;, and both are denials rather than explanations.</p></div>
+  </div>
+  <div class="chart" style="margin-top:18px">
+    <h4>Why the split matters more than the volume</h4>
+    <div class="cap">Share of reviewed terms falling into each frame.</div>
+    <div class="hbar"><div class="l"><span>Critical terms describing <b>effect</b> on staff</span><span class="r">Dominant</span></div><div class="trk"><div class="fil c-bad" data-w="88"></div></div></div>
+    <div class="hbar"><div class="l"><span>Supportive terms describing <b>intent</b> and meaning</span><span class="r">Dominant</span></div><div class="trk"><div class="fil c-ok" data-w="84"></div></div></div>
+    <div class="hbar"><div class="l"><span>Terms used by <b>both</b> sides</span><span class="r">Narrow</span></div><div class="trk"><div class="fil c-neu" data-w="22"></div></div></div>
+    <div class="hbar"><div class="l"><span>Supportive terms that <b>engage</b> the effect argument</span><span class="r">Very narrow</span></div><div class="trk"><div class="fil c-warn" data-w="11"></div></div></div>
+    <p class="note">The clearest diagnostic in the brief. An intent vocabulary cannot answer an effect accusation. Until a supportive message uses the other side&rsquo;s words, the two conversations run in parallel and neither moves.</p>
+  </div>
+  <p class="note"><b>Method, stated plainly.</b> Analyst-coded term frequencies across roughly 60 items read for this brief: news articles in four languages, named X posts, Instagram posts and their comment threads. Not a computed scrape of the full social corpus, and no platform API was used. Treat the bands as directional, and describe it externally as a reading of the reviewed material rather than a measurement of public opinion.</p>
+</section>
+
+<!-- 12 -->
+<section id="s9">
+  <div class="eyebrow">12 · Contradictions &amp; Risk</div>
+  <h2 class="sec">Where the accounts diverge, and what would settle them</h2>
+
+  <details open>
+    <summary>1 · Was the request about gender?</summary>
+    <div class="db"><p><b><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">SETE</a>:</b> the delegation asked for a visit limiting interactions with women. <b><a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">BAPS</a>:</b> never rooted in gender, it was about delegation size.</p><p><b>Better supported:</b> SETE. Its statement damages SETE, which is why it carries weight. If the concern were size, the instruction would have applied to all staff.</p><p><b>Resolved by:</b> the original request in writing, or testimony from the SETE employee who received it.</p></div>
+  </details>
+  <details>
+    <summary>2 · Access vs displacement</summary>
+    <div class="db"><p><b><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">BAPS</a>:</b> no one was denied access. <b><a class="cite" href="https://www.aljazeera.com/news/2026/9/8/what-is-baps-the-hindu-group-whose-demands-led-to-eiffel-tower-closure" target="_blank" rel="noopener">Staff</a>:</b> women were moved off posts and replaced by men.</p><p><b>Better supported:</b> both may be true. They answer different questions. That is the problem, because BAPS answered the easier one.</p><p><b>Resolved by:</b> nothing factual. This is a framing failure.</p></div>
+  </details>
+  <details>
+    <summary>3 · Internal BAPS messaging</summary>
+    <div class="db"><p>A volunteer <a class="cite" href="https://www.sudradio.fr/societe/foule-a-linauguration-dun-temple-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">told AFP</a> that saints have rules, which is why men and women are separated. BAPS Paris later <a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">told CNN</a> the request was never rooted in gender. Not a factual contradiction, since the first concerned ceremonies, but a coherence failure that journalists are already pairing. It also shows unbriefed volunteers speaking to a global wire agency.</p></div>
+  </details>
+  <details>
+    <summary>4 · Was the monument privatised?</summary>
+    <div class="db"><p><b><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">BAPS</a>:</b> normal opening hours. <b>Some commentary:</b> the tower was privatised. No union or SETE statement in the reviewed record describes a closure to the public. This is one of the few places a BAPS clarification would be factually solid.</p></div>
+  </details>
+
+  <h3 style="font-size:17px;margin:28px 0 12px">Risk heatmap</h3>
+  <div class="heat">
+    <div class="hh">Dimension</div><div class="hh">France</div><div class="hh">India</div><div class="hh">Intl</div><div class="hh">Devotees</div>
+    <div class="rl">Reputational</div><div class="hc h-c">Critical</div><div class="hc h-l">Low</div><div class="hc h-h">High</div><div class="hc h-l">Low</div>
+    <div class="rl">Legal</div><div class="hc h-m">Medium</div><div class="hc h-l">None</div><div class="hc h-l">Low</div><div class="hc h-n">n/a</div>
+    <div class="rl">Political</div><div class="hc h-c">Critical</div><div class="hc h-l">Low</div><div class="hc h-m">Medium</div><div class="hc h-n">n/a</div>
+    <div class="rl">Partnerships</div><div class="hc h-h">High</div><div class="hc h-l">Low</div><div class="hc h-m">Medium</div><div class="hc h-n">n/a</div>
+    <div class="rl">Women</div><div class="hc h-c">Critical</div><div class="hc h-m">Medium</div><div class="hc h-h">High</div><div class="hc h-m">Medium</div>
+    <div class="rl">Under-30s</div><div class="hc h-h">High</div><div class="hc h-m">Medium</div><div class="hc h-h">High</div><div class="hc h-m">Medium</div>
+    <div class="rl">Interfaith</div><div class="hc h-h">High</div><div class="hc h-l">Low</div><div class="hc h-m">Medium</div><div class="hc h-l">Low</div>
+    <div class="rl">Venue access</div><div class="hc h-c">Critical</div><div class="hc h-l">None</div><div class="hc h-m">Medium</div><div class="hc h-n">n/a</div>
+  </div>
+  <p class="note">France is the operative column. The mandir at Bussy-Saint-Georges is a permanent commitment in a country where BAPS now has a public record on gender before it has a public record on anything else. That sequencing is the durable strategic cost.</p>
+
+  <h3 style="font-size:17px;margin:28px 0 12px">What would change this assessment</h3>
+  <div class="tw">
+    <table>
+      <thead><tr><th>Evidence</th><th>Effect</th><th>Direction</th></tr></thead>
+      <tbody>
+        <tr><td>Written request explicitly asking that women be removed</td><td>Ends the accommodation defence. Moves BAPS from requester to author</td><td><span class="b b-bd">Much worse</span></td></tr>
+        <tr><td>Written request with no reference to sex</td><td>Shifts responsibility to SETE's interpretation</td><td><span class="b b-ok">Much better</span></td></tr>
+        <tr><td>Evidence SETE proposed the removal method itself</td><td>Strongest single item BAPS could obtain</td><td><span class="b b-ok">Much better</span></td></tr>
+        <tr><td>Testimony a BAPS organiser saw the displacement and did not object</td><td>Establishes knowledge. Removes the misunderstanding defence</td><td><span class="b b-bd">Worse</span></td></tr>
+        <tr><td>A precedent at another public venue</td><td>Converts an incident into a policy. Highest latent risk</td><td><span class="b b-bd">Much worse</span></td></tr>
+        <tr><td>Complaint to the Défenseur des droits or a labour inspection finding</td><td>New news event. Extends the cycle by weeks</td><td><span class="b b-wn">Worse</span></td></tr>
+        <tr><td>Finding that SETE bore sole operational responsibility</td><td>Partial rehabilitation. The request itself still criticised</td><td><span class="b b-ok">Better</span></td></tr>
+        <tr><td>Named testimony from affected staff</td><td>Personalises the story, adds fresh human interest</td><td><span class="b b-bd">Worse</span></td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- 10 -->
+<section id="s10">
+  <div class="eyebrow">13 · Sources</div>
+  <h2 class="sec">Every material claim traced to origin</h2>
+  <p class="lede">All entries below link to the article consulted. 5 primary evidence · 4 official statement or direct interview · 3 multiple independent reports · 2 single report · 1 social claim · 0 unsupported.</p>
+
+  <div style="border:1px solid var(--line);background:var(--card);padding:16px 20px">
+    <div class="srcrow" style="border-bottom:1px solid var(--line);font-family:'IBM Plex Mono',monospace;font-size:8.8px;letter-spacing:.11em;text-transform:uppercase;color:var(--muted)"><div>Source</div><div>Type</div><div>Reliability</div></div>
+    <div class="srcrow"><div><a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">BAPS Paris statement on X, 7 September</a></div><div class="mono" style="font-size:10px">Primary</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">Staff letter obtained directly by franceinfo</a></div><div class="mono" style="font-size:10px">Primary</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">AFP photo wire (Kenzo Tribouillard), 3 &amp; 6 September</a></div><div class="mono" style="font-size:10px">Primary</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://organiser.org/2026/09/07/379113/bharat/baps-swaminarayan-temple-in-paris-pm-modi-calls-pran-pratishtha-a-new-era-for-india-france-cultural-relations/" target="_blank" rel="noopener">Modi video address, temple consecration, 6 September</a></div><div class="mono" style="font-size:10px">Primary</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">BAPS published material on sadhu vows</a></div><div class="mono" style="font-size:10px">Primary</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.legifrance.gouv.fr/codes/id/LEGISCTA000006165298/2026-08-06" target="_blank" rel="noopener">Code pénal 225-1/2/4; Code du travail L1132-1, L1142-1</a></div><div class="mono" style="font-size:10px">Statute</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">SETE statement to AFP, 7 September</a></div><div class="mono" style="font-size:10px">Official</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.cnn.com/2026/09/08/travel/eiffel-tower-strike-female-staff-baps-hindu-group-intl-hnk" target="_blank" rel="noopener">BAPS Paris statement to CNN, 8 September</a></div><div class="mono" style="font-size:10px">Official</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">Staff statement to AFP via CGT</a></div><div class="mono" style="font-size:10px">Primary</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">Diane Davoine, works council secretary, to Reuters and AFP</a></div><div class="mono" style="font-size:10px">Interview</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.franceinfo.fr/societe/religion/la-tour-eiffel-est-restee-fermee-lundi-apres-des-consignes-pour-limiter-la-presence-des-femmes-lors-de-la-visite-d-une-delegation-hindoue_8181443.html" target="_blank" rel="noopener">Denis Vavassori, CGT, to franceinfo</a></div><div class="mono" style="font-size:10px">Interview</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">Ariel Weil, SETE president, to AFP</a></div><div class="mono" style="font-size:10px">Official</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Grégoire, Bergé, Pécresse, Le Pen — X posts and press conference</a></div><div class="mono" style="font-size:10px">Official</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.sudradio.fr/societe/foule-a-linauguration-dun-temple-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">Vaïbhavi Parekh and Jenish Parekh, BAPS volunteers, to AFP</a></div><div class="mono" style="font-size:10px">Interview</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.sudradio.fr/societe/foule-dhindous-pres-de-paris-pour-la-consecration-du-premier-temple-du-mouvement-baps" target="_blank" rel="noopener">AFP on-site reporting, Bussy-Saint-Georges</a></div><div class="mono" style="font-size:10px">Wire</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+    <div class="srcrow"><div><a class="cite" href="https://www.sudradio.fr/societe/pres-de-paris-linauguration-dun-temple-comme-embleme-de-lhindouisme-en-france" target="_blank" rel="noopener">Christophe Jaffrelot, quoted by AFP</a></div><div class="mono" style="font-size:10px">Expert</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+    <div class="srcrow"><div>Wire cluster: <a class="cite" href="https://www.france24.com/fr/info-en-continu/20260908-la-tour-eiffel-doit-rouvrir-apr%C3%A8s-une-gr%C3%A8ve-contre-la-discrimination-des-employ%C3%A9es" target="_blank" rel="noopener">France 24</a>, <a class="cite" href="https://www.europe1.fr/societe/tour-eiffel-apres-la-polemique-sur-leviction-de-salariees-le-mouvement-hindou-presente-ses-excuses-1062593" target="_blank" rel="noopener">Europe 1</a>, <a class="cite" href="https://www.publicsenat.fr/actualites/politique/decision-absurde-inique-et-inacceptable-le-maire-de-paris-annonce-le-lancement-de-deux-enquetes-apres-leviction-polemique-du-personnel-feminin-de-la-tour-eiffe" target="_blank" rel="noopener">Public Sénat</a>, <a class="cite" href="https://actu.orange.fr/france/tour-eiffel-deux-enquetes-lancees-apres-l-eviction-polemique-de-salariees-CNT000002rLX74.html" target="_blank" rel="noopener">Orange</a>, <a class="cite" href="https://www.sudradio.fr/societe/foule-dhindous-pres-de-paris-pour-la-consecration-du-premier-temple-du-mouvement-baps" target="_blank" rel="noopener">Sud Radio</a>, <a class="cite" href="https://www.lapresse.ca/international/europe/2026-09-08/mise-a-l-ecart-des-femmes-employees/la-tour-eiffel-rouvre-apres-la-visite-controversee-d-un-groupe-religieux.php" target="_blank" rel="noopener">La Presse</a>, <a class="cite" href="https://citoyens.com/2026/sideration-apres-linvisibilisation-des-employees-femmes-de-la-tour-eiffel-pour-la-visite-du-mouvement-hindou-baps,08-09-2026.html" target="_blank" rel="noopener">citoyens.com</a>, <a class="cite" href="https://www.lagazettefrance.fr/article/foule-a-l-inauguration-d-un-temple-embleme-de-l-hindouisme-en-france" target="_blank" rel="noopener">La Gazette</a></div><div class="mono" style="font-size:10px">Wire copy</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+    <div class="srcrow"><div>Explainer cluster: <a class="cite" href="https://www.aljazeera.com/news/2026/9/8/what-is-baps-the-hindu-group-whose-demands-led-to-eiffel-tower-closure" target="_blank" rel="noopener">Al Jazeera</a>, <a class="cite" href="https://www.cbsnews.com/news/france-eiffel-tower-hindu-group-female-staff-removed/" target="_blank" rel="noopener">CBS</a>, <a class="cite" href="https://www.ibtimes.co.uk/why-did-eiffel-tower-shut-down-baps-hindu-delegation-visit-female-staff-row-explained-1818431" target="_blank" rel="noopener">IBTimes UK</a>, <a class="cite" href="https://www.thenewsminute.com/news/baps-and-its-celibate-monks-the-organisation-at-the-centre-of-the-eiffel-tower-row" target="_blank" rel="noopener">News Minute</a>, <a class="cite" href="https://www.newsgram.com/amp/story/france/2026/09/08/eiffel-tower-staff-protest-baps-female-employees-sidelined" target="_blank" rel="noopener">Newsgram</a>, <a class="cite" href="https://www.bloomberg.com/news/articles/2026-09-08/hindu-group-apologizes-after-eiffel-tower-visit-sparks-strike" target="_blank" rel="noopener">Bloomberg</a></div><div class="mono" style="font-size:10px">Derivative</div><div class="rel"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div>
+    <div class="srcrow"><div>Aligned cluster: <a class="cite" href="https://www.opindia.com/2026/09/eiffel-tower-paris-women-employees-strike-over-celibacy-practicing-baps-delegation-visit/" target="_blank" rel="noopener">OpIndia</a>, <a class="cite" href="https://organiser.org/2026/09/08/379354/world/at-no-point-was-anyone-denied-access-baps-clears-the-air-on-eiffel-tower-row/" target="_blank" rel="noopener">Organiser</a>, <a class="cite" href="https://www.socialnews.xyz/2026/09/06/pm-modi-hails-consecration-of-baps-swaminarayan-temple-in-paris-as-milestone-for-india-france-cultural-ties/" target="_blank" rel="noopener">Social News XYZ</a></div><div class="mono" style="font-size:10px">Derivative</div><div class="rel"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div>
+  </div>
+
+  <p class="note"><b>Gaps.</b> Le Monde, Le Figaro, Libération, BFMTV and the Indian print dailies were not retrieved in this pass. Platform-level social data beyond named official accounts was not accessible. No Gujarati or Hindi sources reviewed. Cover these before the brief is used for a final decision.</p>
+</section>
+
+<footer>
+  <h4>Standing of this document</h4>
+  <p>Independent analysis from open sources, 9 September 2026, evidence cut-off 08:00 CEST. Not commissioned, funded, reviewed or endorsed by anyone: not by BAPS, not by SETE, not by any union, authority, media organisation or third party. No party to the matter was contacted, and no party has seen it. Contains no legal advice. Assessments are analyst judgements against stated criteria and are open to challenge. Where evidence was absent, that is stated rather than filled. Sentiment figures are coded source counts, not survey data, and must not be presented as measurements of public opinion.</p>
+</footer>
+
+</main>
+</div>
+
+<script>
+// theme toggle (in-memory, defaults to dark)
+function setTheme(t){
+  document.documentElement.dataset.theme=t;
+  document.querySelectorAll('.tgl button').forEach(x=>x.classList.toggle('on',x.dataset.t===t));
+}
+document.querySelectorAll('.tgl button').forEach(x=>x.addEventListener('click',()=>setTheme(x.dataset.t)));
+setTheme('dark');
+
+// mobile nav
+const b=document.getElementById('burger'), sc=document.getElementById('scrim');
+b.addEventListener('click',()=>document.body.classList.toggle('navopen'));
+sc.addEventListener('click',()=>document.body.classList.remove('navopen'));
+document.querySelectorAll('nav.side a').forEach(a=>a.addEventListener('click',()=>document.body.classList.remove('navopen')));
+
+// scrollspy
+const links=[...document.querySelectorAll('nav.side a')];
+const secs=links.map(a=>document.querySelector(a.getAttribute('href'))).filter(Boolean);
+new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id));}});},{rootMargin:'-10% 0px -80% 0px'}).observe && secs.forEach(s=>{
+  new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)links.forEach(l=>l.classList.toggle('on',l.getAttribute('href')==='#'+e.target.id));});},{rootMargin:'-8% 0px -82% 0px'}).observe(s);
+});
+
+// timeline expand
+document.querySelectorAll('.tlh').forEach(h=>h.addEventListener('click',()=>h.parentElement.classList.toggle('open')));
+document.querySelectorAll('.tlmark').forEach((m,i)=>m.addEventListener('click',()=>{
+  const items=document.querySelectorAll('.tli');
+  const map=[0,2,3,4,5,6,8];
+  const t=items[map[i]]; if(t){t.classList.add('open');t.scrollIntoView({block:'center'});}
+}));
+
+// animations
+const io=new IntersectionObserver(es=>{es.forEach(e=>{
+  if(!e.isIntersecting) return;
+  e.target.querySelectorAll('.fil').forEach((f,i)=>setTimeout(()=>f.style.width=f.dataset.w+'%',i*70));
+  e.target.querySelectorAll('.meter i').forEach((f,i)=>setTimeout(()=>f.style.width=f.dataset.w+'%',i*90));
+  e.target.querySelectorAll('.col .bar').forEach((c,i)=>setTimeout(()=>c.style.height=c.dataset.h+'%',i*80));
+  e.target.querySelectorAll('.dseg').forEach((c,i)=>setTimeout(()=>c.style.strokeDashoffset=(339.29-c.dataset.len),i*180));
+  io.unobserve(e.target);
+});},{threshold:.2});
+e=>e;
+const io2=new IntersectionObserver(es=>{es.forEach(e=>{ if(!e.isIntersecting) return;
+  e.target.querySelectorAll('.dvb').forEach((d,i)=>setTimeout(()=>d.style.width=d.dataset.w+'%',i*60));
+  const g=e.target.querySelector('.gmark'); if(g) setTimeout(()=>g.style.left=g.dataset.pos+'%',200);
+  io2.unobserve(e.target);});},{threshold:.25});
+document.querySelectorAll('.chart,.ku,.cols').forEach(x=>io.observe(x));
+document.querySelectorAll('#dvchart,.gauge,#stancemeter').forEach(x=>io2.observe(x));
+const io3=new IntersectionObserver(es=>{es.forEach(e=>{if(!e.isIntersecting)return;
+  e.target.querySelectorAll('.smeter div').forEach((d,i)=>setTimeout(()=>d.style.width=d.dataset.w+'%',i*110));
+  io3.unobserve(e.target);});},{threshold:.3});
+document.querySelectorAll('.smeter').forEach(x=>io3.observe(x));
+
+// claim filter
+const tbl=document.getElementById('claims'), rows=[...tbl.tBodies[0].rows], cnt=document.getElementById('ccount');
+let af='all', q='';
+function apply(){let n=0;rows.forEach(r=>{
+  const a=r.cells[3].innerText.trim().toUpperCase(), t=r.innerText.toLowerCase();
+  const okF=af==='all'||a.includes(af)||(af==='MISLEADING'&&a.includes('FALSE'));
+  const okQ=!q||t.includes(q);
+  r.style.display=(okF&&okQ)?'':'none'; if(okF&&okQ)n++;});
+  cnt.textContent=n+' of '+rows.length;}
+document.querySelectorAll('.fb').forEach(x=>x.addEventListener('click',()=>{
+  document.querySelectorAll('.fb').forEach(y=>y.classList.remove('on'));x.classList.add('on');af=x.dataset.f;apply();}));
+document.getElementById('csearch').addEventListener('input',e=>{q=e.target.value.toLowerCase().trim();apply();});
+const ord={'VERIFIED':1,'HIGHLY PROBABLE':2,'PLAUSIBLE':3,'DISPUTED':4,'UNVERIFIED':5,'MISLEADING':6,'FALSE AS STATED':7};
+let dir=1;
+tbl.querySelectorAll('th.s').forEach(th=>th.addEventListener('click',()=>{
+  const c=+th.dataset.c; dir*=-1;
+  [...rows].sort((a,bb)=>{let x=a.cells[c].innerText.trim().toUpperCase(),y=bb.cells[c].innerText.trim().toUpperCase();
+    if(c===3){return ((ord[x]||99)-(ord[y]||99))*dir;} return x.localeCompare(y)*dir;})
+  .forEach(r=>tbl.tBodies[0].appendChild(r));}));
+apply();
+
+
+</script>
+</body>
+</html>
