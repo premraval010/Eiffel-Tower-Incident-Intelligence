@@ -1,4 +1,6 @@
 {
+  "buildCommand": "node scripts/stamp-updated.mjs",
+  "outputDirectory": ".",
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [

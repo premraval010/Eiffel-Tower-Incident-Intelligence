@@ -12,10 +12,11 @@ Live: https://eiffel-tower-incident-intelligence.vercel.app
 
 | File | Purpose |
 |---|---|
-| `index.html` | The full interactive brief. 13 sections, self-contained, no build step. |
+| `index.html` | The full interactive brief. 13 sections, self-contained, no framework. |
 | `eiffel-tower-incident-briefing.pdf` | Multi-page visual summary for circulation. |
 | `og-image.png` | 1200x630 social share card. Tricolour Eiffel Tower cover photo (L. de Cockborne / bobostudio, credit intact). |
 | `favicon.svg` | Site icon. |
+| `scripts/stamp-updated.mjs` | Build step that stamps the deploy time into the "last updated" fields. |
 | `vercel.json`, `robots.txt`, `sitemap.xml` | Deployment and indexing. |
 
 ## Sections
@@ -28,7 +29,7 @@ Live: https://eiffel-tower-incident-intelligence.vercel.app
 6. Claim Verification — 22 claims, filterable and sortable
 7. Media & Framing — origination analysis plus Indian-language coverage
 8. Sentiment & Stakeholders
-9. Voices & Stances — 25 named figures across four countries, each linked
+9. Voices & Stances — 27 named figures across four countries, each linked
 10. Diaspora & Backlash — how the story widened after 9 September
 11. Language & Sentiment — term-frequency analysis of the two vocabularies
 12. Contradictions & Risk
@@ -56,7 +57,15 @@ the public record, not as an authoritative account.
 
 ## Updating
 
-`index.html` is a single self-contained file. No framework, no build, no dependencies beyond
-Google Fonts. Edit and redeploy.
+`index.html` is a single self-contained file. No framework, no dependencies beyond Google Fonts.
+Edit and redeploy.
 
-Last updated: 11 September 2026, 13:30 IST
+The **"last updated" date is stamped automatically at deploy time.** On every Vercel build,
+`scripts/stamp-updated.mjs` fills the four UI stamps (masthead, sidebar, mobile bar, PDF link)
+and the two SEO fields (`article:modified_time`, JSON-LD `dateModified`) with the current time in
+IST and CEST. It only rewrites the text between `<!--U:type-->…<!--/U-->` markers and the two date
+attributes, so the analysis body — including the editorial "as of 11 September" cut-off claims —
+is never touched. The step is fail-safe: any error is swallowed so a deploy can never break on it.
+
+The date in the committed file is just a placeholder; the deployed page always shows the real
+deploy time.
